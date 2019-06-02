@@ -1,3 +1,3 @@
 # My Portfolio
 
-A showcase of my work at Bloc.
+This is a showcase of my work at Bloc as of 7/1/2019.
