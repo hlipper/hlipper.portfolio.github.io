@@ -6,14 +6,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
-      <div class="nav-left">
         <img src="images/Logo.png" class="logo" alt="Holly Lipper's logo, which is a notebook.">
-      </div>
-      <ul class="nav-right">
+      <ul class="nav-links">
         <li><a href="index.html/#project-winder">Projects</a></li>
         <li><a href="index.html/#bio">About Me</a></li>
         <li><a href="index.html/#contact">Contact</a></li>
@@ -22,12 +20,44 @@
     <div class="container-project">
         <h1>Winder</h1>
         <h2>An audio cloud storage platform built for collaboration.</h2>
+        <section class="chipbox-winder">
+          <span class="mdl-chip-ux-design-winder">
+            <span class="mdl-chip__text">UX Design</span>
+          </span>
+          <span class="mdl-chip-ux-research-winder">
+            <span class="mdl-chip__text">UX Research</span>
+          </span>
+          <span class="mdl-chip-figma-winder">
+            <span class="mdl-chip__text">Figma</span>
+          </span>
+          <span class="mdl-chip-content-strategy-winder">
+            <span class="mdl-chip__text">Content Strategy</span>
+          </span>
+          <span class="mdl-chip-visual-design-winder">
+            <span class="mdl-chip__text">Visual Design</span>
+          </span>
+          <span class="mdl-chip-logo-design-winder">
+            <span class="mdl-chip__text">Logo Design</span>
+          </span>
+          <span class="mdl-chip-clickable-prototype-winder">
+            <span class="mdl-chip__text">Clickable Prototype</span>
+          </span>
+          <span class="mdl-chip-style-guide-winder">
+            <span class="mdl-chip__text">Style Guide</span>
+          </span>
+        <span class="mdl-chip-hi-fi-mockups-winder">
+          <span class="mdl-chip__text">Hi-Fi Mockups</span>
+        </span>
+        <span class="mdl-chip-invision-winder">
+          <span class="mdl-chip__text">Invision</span>
+        </span>
+      </section>
         <section class="summary">
           <figure>
             <img src="images/desktop-landing-page.png" class="winder-desktop-landing-page-pic" alt="A screenshot of the Winder desktop landing page.">
             <figcaption></figcaption>
-            <input type="button" class = "button" value="SEE PROTOTYPE">
           </figure>
+          <input type="button" class = "button" value="SEE PROTOTYPE">
           <h3>Summary</h3>
             <p>In a crowded market, how can a new cloud storage platform best make an impact?  Tapping into an unanticipated
             need would prove to be key to the creation of Winder.  We discovered that individual audio collections, whether
@@ -54,33 +84,9 @@
               are examples of sources of audio files a user may want to store, which are not accounted for by most streaming services.
               These items were kept in mind, and prioritized by popularity, when the product concept was being developed.</p>
         </section>
-        <section class="roles">
-          <h3>Roles</h3>
-          <ul>
-            <li>UX Design</li>
-            <li>UX Research</li>
-            <li>Visual Design</li>
-          </ul>
-        </section>
-        <section class="deliverables">
-            <h3>Deliverables</h3>
-            <ul>
-              <li>Logo</li>
-              <li>Style Guide</li>
-              <li>Clickable Prototype</li>
-            </ul>
-          </section>
-          <section class="tools">
-            <h3>Tools</h3>
-            <ul>
-              <li>Figma</li>
-              <li>Invision</li>
-            </ul>
-          </section>
             <section class="user-research">
               <figure>
-                <img src="#" class="winder-desktop-landing-page-detail" alt="A screenshot of the Winder desktop landing page, which
-                has glitch art clouds and a chunky display typeface.">
+                <img src="images/desktop.playlist.png" class="winder-dashboard-detail" alt="A screenshot of the Winder dashboard, which has album covers arranged in a grid.">
                 <figcaption></figcaption>
               </figure>
             <h3>User Research</h3>
@@ -97,16 +103,16 @@
                 portion of respondents cited security concerns, or fear of losing access to their files.  I decided to build in a security
                 feature, called “Collaborators,” which enables users to set privileges when sharing files, to help mitigate this concern.</p>
               <figure class="research-stats">
-                <h2 class="research-stats">66%</h2>
-                <figcaption class="research-stats">interested in a cloud storage app specializing in audio, but not another streaming service</figcaption>
+                <h2 class="research-percent">66%</h2>
+                <figcaption class="research-figcaption">interested in a cloud storage app specializing in audio, but not another streaming service</figcaption>
               </figure>
               <figure class="research-stats">
-                <h2 class="research-stats">86%</h2>
-                <figcaption class="research-stats">wanted a way to store downloads, primarily mp3 files</figcaption>
+                <h2 class="research-percent">86%</h2>
+                <figcaption class="research-figcaption">wanted a way to store downloads, primarily mp3 files</figcaption>
               </figure>
               <figure class="research-stats">
-                <h2 class="research-stats">25%</h2>
-                <figcaption class="research-stats">excited about a collaborative sharing platform for home recodings, podcasts and scores</figcaption>
+                <h2 class="research-percent">25%</h2>
+                <figcaption class="research-figcaption">excited about a collaborative sharing platform for home recodings, podcasts and scores</figcaption>
               </figure>
             </section>
             <section class="competitive-analysis">
@@ -116,9 +122,9 @@
                We hoped to avoid the heavily curated content and ads of Pinterest, the somewhat boring though functional look of Box,
                and what might be perceived as the features overload of Evernote.</p>
                <ul class="competitor-icons">
-                 <li><img src="#" class="pinterest-icon" alt="Pinterest"></li>
-                 <li><img src="#" class="box-icon" alt="Box"></li>
-                 <li><img src="#" class="evernote-icon" alt="Evernote"></li>
+                 <li><img src="images/badgeRGB-244px.png" class="pinterest-icon" alt="Pinterest"></li>
+                 <li><img src="images/box_blue.png" class="box-icon" alt="Box"></li>
+                 <li><img src="images/evernote-logo.png" class="evernote-icon" alt="Evernote"></li>
                </ul>
             </section>
             <section class="personas">
@@ -127,18 +133,18 @@
 
               <p>Tim was conceived as a 30-something professional who travels frequently for business.  Having access to recordings of yoga classes
                 from his local studio helps him feel grounded while slogging around chain hotels and airports. </p>
-
+                <figure>
+                  <img src="images/Tim.png" class="persona-image" alt="Tim, a young man in a black t-shirt and glasses.">
+                  <figcaption></figcaption>
+                </figure>
               <p>Lori was conceived as a college student who enjoys taping local house shows, with the possibility of organizing them into a radio
                 show or playlist at some point.  She is motivated by a desire to preserve these unique moments in her local scene.</p>
 
               <p>Our app would aim to help these users and other creatives, such as musicians, teachers, podcasters,
                 etc. - as well as those who simply need a home for their music downloads.</p>
+
               <figure>
-                <img src="#" class="persona-image" alt="Tim, a young man in a black t-shirt and glasses.">
-                <figcaption></figcaption>
-              </figure>
-              <figure>
-                <img src="#" class="persona-image" alt="Lori, a young woman with huge gold earrings and cat's eye/winged eyeliner.">
+                <img src="images/Lori.png" class="persona-image" alt="Lori, a young woman with huge gold earrings and cat's eye/winged eyeliner.">
                 <figcaption></figcaption>
               </figure>
               </section>
@@ -154,7 +160,7 @@
                    <li>Organize Files with Folders</li>
                    <li>Share a File</li>
                    <li>Play a File</li>
-                   <li>Make Notes or Comments on a File</li>
+                   <li>Make Notes or Comments</li>
                    <li>Set Privacy/Security Settings</li>
                   </ul>
                  </blockquote>
@@ -194,9 +200,6 @@
                       <p>While working on wireframes, I saw a compelling art piece about, among other things, the old card catalog at the UN Library.
                           The artist related his opinion that searching by keywords in the information age maneuvers us around documents we might
                           otherwise bump into for the first time, or rediscover.  </p>
-
-                      <p>At that point, I made a unilateral decision to remove the search field and allow users to scroll through artifacts sorted i
-                        n alphabetical order by artist name, album/playlist name, or category.  </p>
                         <figure>
                           <img src="#" class="sketches" alt="The first sketch of the desktop dashboard, with two ugly columns of list items and a search field.">
                           <figcaption></figcaption>
@@ -346,7 +349,6 @@
                         </section>
                 </div>
       <footer class ="footer">
-        <h4>SOCIAL LINKS</h4>
         <ul class="social-links">
           <li><img src="images/email-icon.png" class="email-icon" alt="Email Holly."></li>
           <li><img src="images/GitHub-Mark-Light-32px.png" class="github-icon" alt="View Holly's GitHub profile."></li>
