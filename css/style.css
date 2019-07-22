@@ -9,7 +9,8 @@ html {
 nav {
   background-color: #ffffff;
   border-bottom: .01rem solid #e5e5e5;
-  height: 6rem;
+  box-sizing: border-box;
+  height: 5.99rem;
   left: 0rem;
   mix-blend-mode: normal;
   position: fixed;
@@ -35,7 +36,6 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
-  line-height: 150%;
   padding: 1rem;
   text-align: center;
   text-decoration: none;
@@ -50,9 +50,13 @@ nav {
   margin-bottom: 1rem;
   margin-left: 1.6rem;
   margin-top: 1rem;
-  position: fixed;
   width: 3.4rem;
 
+}
+
+.logo a {
+  padding: 0;
+  margin-top: -1rem;
 }
 
 /*hero*/
@@ -2257,11 +2261,9 @@ justify-content: center;
   nav {
     background-color: #ffffff;
     border-bottom: .01rem solid #e5e5e5;
-    height: 6rem;
+    height: 5.99rem;
     left: 0rem;
-    max-width: 320rem;
     mix-blend-mode: normal;
-    position: fixed;
     top: 0rem;
     width: 100%;
     z-index: 5;
@@ -2270,8 +2272,8 @@ justify-content: center;
 
   .nav-links {
     display: flex;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     text-decoration: none;
   }
 
@@ -2282,7 +2284,6 @@ justify-content: center;
     font-family: "Poppins", sans-serif;
     font-size: 1.3rem;
     font-weight: 600;
-    line-height: 150%;
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
@@ -2294,14 +2295,17 @@ justify-content: center;
   .logo {
     border: 0;
     height: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-left: 1.6rem;
     margin-right: 1.6rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 
 
   }
 
+.logo a {
+  padding: 0;
+}
 
 
   .hero h1 {
