@@ -61,6 +61,9 @@ nav {
 
 /*hero*/
 
+.hero-bold {
+  font-weight: bolder;
+}
 
 .hero-pic {
   margin-top: 6rem;
@@ -68,19 +71,14 @@ nav {
 }
 
 .hero h1 {
-  bottom: 40%;
   color: #272728;
   font-family: "Poppins", sans-serif;
   font-size: 3.6rem;
   font-style: normal;
   font-weight: 700;
-  height: 9rem;
-  left: 60%;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  position: absolute;
-  right: 5%;
-  top: 15%;
+  margin: 2rem;
   z-index: 2;
 
 }
@@ -203,17 +201,16 @@ h3 {
 
 .winder-pic {
   align-self: center;
-  margin-left: 3.8rem;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   width: 80%;
 
 }
 
 .busybus-pic {
   align-self: center;
-  height: 65rem;
-  margin-left: 3.8rem;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   width: 80%;
 
 }
@@ -497,6 +494,7 @@ p {
   background-color: #FECDCD;
   border-radius: 50px;
   display: flex;
+  height: 3.2rem;
   justify-content: center;
   margin: 0.25rem;
   padding: 0.3rem;
@@ -541,15 +539,13 @@ p {
 footer {
   background-color: #272728;
   bottom: 0;
-  height: 6rem;
   width: 100%;
 
 }
 
 .social-links {
-  align-items: center;
   display: flex;
-  height: 6rem;
+  height: 5rem;
   justify-content: center;
 
 }
@@ -577,6 +573,16 @@ footer {
   border: 0;
   height: 2.4rem;
   width: 2.4rem;
+
+}
+
+.footer-p {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 2rem;
+  width: auto;
 
 }
 
@@ -1485,19 +1491,14 @@ h3 {
 
 
   .hero h1 {
-    bottom: 45%;
     color: #272728;
     font-family: "Poppins", sans-serif;
     font-size: 5.4rem;
     font-style: normal;
     font-weight: bold;
     height: 9rem;
-    left: 65%;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    position: absolute;
-    right: 5%;
-    top: 15%;
 
   }
 
@@ -2086,244 +2087,9 @@ justify-content: center;
 
 
 
-}
-
-/*for smaller cell phones */
-
-
-  @media only screen and (min-width: 300px) and (max-width: 359px) {
 
 
 
-    /*tab bar nav*/
-    nav {
-      background-color: #ffffff;
-      border-bottom: .01rem solid #e5e5e5;
-      height: 6rem;
-      left: 0rem;
-      mix-blend-mode: normal;
-      position: fixed;
-      top: 0rem;
-      width: 100%;
-      z-index: 5;
-
-    }
-
-    .nav-links {
-      display: flex;
-      padding-bottom: 2rem;
-      padding-top: 2rem;
-      text-decoration: none;
-    }
-
-
-    .nav-links a {
-      align-items: center;
-      color: #272728;
-      font-family: "Poppins", sans-serif;
-      font-size: 1.2rem;
-      font-weight: 600;
-      line-height: 150%;
-      padding: 0.5rem;
-      text-align: center;
-      text-decoration: none;
-
-
-    }
-
-
-    .logo {
-      border: 0;
-      height: 4rem;
-      margin-bottom: 1rem;
-      margin-left: 1.6rem;
-      margin-right: 1.6rem;
-      margin-top: 1rem;
-
-
-    }
-
-
-    .container {
-      width: 110%;
-
-    }
-
-    .container-project {
-      width: 110%;
-    }
-
-    .footer {
-      width: 110%;
-    }
-
-    .hero h1 {
-      bottom: 40%;
-      color: #272728;
-      font-family: "Poppins", sans-serif;
-      font-size: 2.4rem;
-      font-style: normal;
-      font-weight: bold;
-      margin-left: 7%;
-      letter-spacing: 0.02rem;
-      line-height: 150%;
-      position: absolute;
-      right: 5%;
-      top: 20%;
-      z-index: 3;
-
-    }
-
-    h3 {
-      align-items: center;
-      color: #272728;
-      font-family: "Poppins",sans-serif;
-      font-size: 2.4rem;
-      font-style: normal;
-      font-weight: 500;
-      height: 20rem;
-      letter-spacing: 0.02rem;
-      line-height: 150%;
-      margin-bottom: 2rem;
-      margin-left: 3.8rem;
-      margin-right: 3.7rem;
-      margin-top: 2rem;
-      padding: 2rem;
-
-    }
-
-    .winder-pic {
-      align-self: center;
-      margin-left: 3rem;
-      margin-right: auto;
-      width: 80%;
-
-    }
-
-    .busybus-pic {
-      align-self: center;
-      height: 30rem;
-      margin-left: 3rem;
-      margin-right: auto;
-      width: 80%;
-
-    }
-
-    .persona-image {
-      height: 42rem;
-      margin-left: 5%;
-      margin-right: 5%;
-      width: 90%;
-    }
-}
-
-
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-
-  .container {
-    width: 100%;
-
-  }
-
-  .container-project {
-    width: 100%;
-  }
-
-  .footer {
-    width: 100%;
-  }
-
-  .winder-pic {
-    align-self: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-
-  }
-
-  .busybus-pic {
-    align-self: center;
-    height: 60rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-
-  }
-
-  .persona-image {
-    height: 40rem;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
-
-  /*tab bar nav*/
-  nav {
-    background-color: #ffffff;
-    border-bottom: .01rem solid #e5e5e5;
-    height: 5.99rem;
-    left: 0rem;
-    mix-blend-mode: normal;
-    top: 0rem;
-    width: 100%;
-    z-index: 5;
-
-  }
-
-  .nav-links {
-    display: flex;
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
-    text-decoration: none;
-  }
-
-
-  .nav-links a {
-    align-items: center;
-    color: #272728;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-
-
-  }
-
-
-  .logo {
-    border: 0;
-    height: 4rem;
-    margin-bottom: 0.5rem;
-    margin-left: 1.6rem;
-    margin-right: 1.6rem;
-    margin-top: 0.5rem;
-
-
-  }
-
-.logo a {
-  padding: 0;
-}
-
-
-  .hero h1 {
-    bottom: 40%;
-    color: #272728;
-    font-family: "Poppins", sans-serif;
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: bold;
-    margin-left: 0%;
-    letter-spacing: 0.02rem;
-    line-height: 150%;
-    position: absolute;
-    right: 5%;
-    top: 15%;
-    z-index: 3;
-
-  }
 }
 /*for desktop */
 
@@ -2333,33 +2099,21 @@ justify-content: center;
 
   .hero-pic {
     margin-top: 6rem;
-    width: 60%;
   }
 
   .hero h1 {
-    bottom: 45%;
     color: #272728;
     font-family: "Poppins", sans-serif;
     font-size: 7.2rem;
     font-style: normal;
     font-weight: bold;
-    height: 9rem;
-    left: 64%;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    position: absolute;
-    right: 5%;
-    top: 20%;
 
   }
 
   .mini-bio {
-    position: absolute;
-    bottom: 30%;
-    left: 62%;
-    right: 5%;
-    top: 50%;
-    width: 30%;
+    font-size: 2.4rem;
   }
 
   .see-more h4 {
@@ -2432,7 +2186,7 @@ h3 {
   margin-left: 3.7rem;
   margin-top: 2rem;
   text-decoration: none;
-  width: 20%;
+  width: 30rem;
 }
 
 .button-busybus {
@@ -2454,7 +2208,7 @@ h3 {
   margin-bottom: 20px;
   margin-left: 3.7rem;
   text-decoration: none;
-  width: 20%;
+  width: 30rem;
 
 }
 
@@ -2569,20 +2323,20 @@ h3 {
     margin-bottom: 4rem;
     margin-left: 3.7rem;
     text-decoration: none;
-    width: 20%;
+    width: 30rem;
 
   }
 
 
 .winder-pic {
+  height: auto;
   margin-left: 3.7rem;
-  width: 20%;
+  margin-top: 5rem;
 }
 
 .busybus-pic {
-  height: 60rem;
+  height: auto;
   margin-left: 3.7rem;
-  width: 20%;
 }
 
 .research-stats-box {
@@ -2746,7 +2500,7 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 10rem 10rem 10rem 24rem 10rem;
+   grid-template-rows: 10rem 10rem 15rem 24rem 10rem;
    padding-left: 7rem;
    padding-top: 6rem;
  }
@@ -2783,9 +2537,9 @@ h3 {
  .project-winder .winder-pic {
    grid-column-start: 2;
    grid-column-end: 3;
-   grid-row-start: 2;
+   grid-row-start: 3;
    grid-row-end: 5;
-   width: 58%;
+   width: auto;
  }
 
 
@@ -2793,8 +2547,8 @@ h3 {
   display: grid;
   grid-column-gap: 10rem;
   grid-row-gap: 2rem;
-  grid-template-columns: 70rem 50rem;
-  grid-template-rows: 10rem 10rem 10rem 24rem 10rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10rem 10rem 15rem 24rem 10rem;
   padding-top: 6rem;
 }
 
@@ -2833,17 +2587,16 @@ h3 {
   grid-row-start: 1;
   grid-row-end: 5;
   margin-left: 10rem;
-  width: 40%;
+  width: auto;
 }
 
 .bio {
   display: grid;
   grid-column-gap: 10rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 0.5rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 8rem 4rem 16rem 4rem 16rem;
   padding-left: 7rem;
-  padding-top: 2rem;
+
 }
 
 .bio h1 {
@@ -2885,7 +2638,7 @@ h3 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-end: 6;
 }
 
 .bio-p3 {
@@ -2902,13 +2655,60 @@ h3 {
   grid-row-end: 6;
 }
 
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  margin-top: 6rem;
+}
+
+.hero-pic {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-top: 0;
+}
+
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 2rem;
+
+}
+
+
+.hero-h1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+.mini-bio {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.see-more {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
 
 .summary {
   background-color: hsla(0, 99%, 68%, .05);
   display: grid;
   grid-column-gap: 10rem;
   grid-row-gap: 2rem;
-  grid-template-columns: 64rem 64rem;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 6rem 10rem 10rem 10rem 4rem 22rem;
 }
 
