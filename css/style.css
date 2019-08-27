@@ -567,6 +567,7 @@ p {
 footer {
   background-color: #272728;
   justify-content: center;
+  margin-bottom: 0;
   width: 100%;
 
 }
@@ -574,7 +575,8 @@ footer {
 .social-links {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
+
 
 }
 
@@ -607,8 +609,7 @@ footer {
 .footer-p {
   color: #ffffff;
   font-size: 1rem;
-  margin: 0, auto;
-  padding: .5rem;
+  padding: 1rem;
   width: auto;
 
 }
