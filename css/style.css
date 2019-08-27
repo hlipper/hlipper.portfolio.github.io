@@ -255,7 +255,7 @@ h3 {
   color: #ffffff;
   display: flex;
   font-family: "Poppins",sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 500;
   height: 6rem;
@@ -271,6 +271,33 @@ h3 {
 
 }
 .button :visited {
+ color: inherit;
+}
+
+.button-2 {
+  align-items: center;
+  align-self: center;
+  background-color: #FE5D5D;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  height: 6rem;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-decoration: none;
+  width: 80%;
+
+}
+.button-2 :visited {
  color: inherit;
 }
 
@@ -1016,6 +1043,29 @@ h3 {
   width: 40%;
 }
 
+.button-2 {
+  align-items: center;
+  align-self: center;
+  background-color: #FE5D5D;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  height: 6rem;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  margin-bottom: 2rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2rem;
+  text-decoration: none;
+  width: 40%;
+}
+
 .button-busybus {
   align-items: center;
   align-self: center;
@@ -1555,6 +1605,29 @@ h3 {
 }
 
 .button {
+  align-items: center;
+  align-self: center;
+  background-color: #FE5D5D;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  height: 6rem;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  margin-bottom: 2rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 2rem;
+  text-decoration: none;
+  width: 40%;
+}
+
+.button-2 {
   align-items: center;
   align-self: center;
   background-color: #FE5D5D;
@@ -2189,6 +2262,28 @@ h3 {
   width: 30rem;
 }
 
+.button-2 {
+  align-items: center;
+  align-self: center;
+  background-color: #FE5D5D;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  height: 6rem;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  margin-bottom: 2rem;
+  margin-left: 3.7rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  width: 30rem;
+}
+
 .button-busybus {
   align-items: center;
   align-self: center;
@@ -2709,7 +2804,7 @@ h3 {
   grid-column-gap: 10rem;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 6rem 10rem 10rem 10rem 4rem 22rem;
+  grid-template-rows: 6rem 10rem 10rem 10rem 10rem 4rem 22rem;
 }
 
 .summary h1 {
@@ -2751,8 +2846,19 @@ h3 {
 .summary a {
   align-items: center;
   grid-column-start:2;
+  grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  margin: 25%;
+  width: 30rem;
+}
+
+.summary .button-2 {
+  align-items: center;
+  grid-column-start:2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
   margin: 25%;
   width: 30rem;
 }
