@@ -2515,12 +2515,14 @@ h3 {
 
 .persona-image1 {
   margin-left: 3.7rem;
-  width: 90%;
+  height: auto;
+  width: 40rem;
 }
 
 .persona-image2 {
   margin-left: 3.7rem;
-  width: 90%;
+  height: auto;
+  width: 40rem;
 }
 
 .flow-image1{
