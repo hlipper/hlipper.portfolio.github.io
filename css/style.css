@@ -616,6 +616,12 @@ footer {
 
 .container-project {
   margin-top: 6rem;
+
+}
+
+.container-project p {
+  margin-left: 1.6rem;
+  max-width: 50rem;
 }
 
 .summary {
@@ -647,8 +653,8 @@ footer {
 
 
 .winder-desktop-landing-page-pic {
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 0;
+  margin-right: 0;
   padding-bottom: 4rem;
   padding-top: 4rem;
   width: 100%;
@@ -719,7 +725,7 @@ footer {
   margin-left: 3.8rem;
   margin-right: 3.7rem;
   margin-top: 0;
-  width: 80%;
+
 
 }
 
@@ -817,14 +823,14 @@ footer {
 
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%;
+  width: 30rem;
 }
 
 .persona-image2 {
 
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%;
+  width: 30rem;
 }
 
 .user-stories ul {
@@ -910,7 +916,7 @@ footer {
   margin-right: 10%;
   margin-top: 2rem;
   text-decoration: none;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -918,14 +924,14 @@ footer {
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 4rem;
-  width: 80%;
+  width: 30rem;
 }
 
 .modal-buttons-images {
   justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%;
+  width: 30rem;
 }
 
 /*for iPad*/
@@ -936,19 +942,13 @@ footer {
 
 
   .hero h1 {
-    bottom: 45%;
     color: #272728;
     font-family: "Poppins", sans-serif;
     font-size: 5.4rem;
     font-style: normal;
     font-weight: bold;
-    height: 9rem;
-    left: 60%;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    position: absolute;
-    right: 5%;
-    top: 20%;
 
   }
 
@@ -968,10 +968,10 @@ footer {
   }
 
   .winder-dashboard-detail {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0;
-    width: 80%;
+    width: 30rem;
 
   }
 
@@ -1029,11 +1029,11 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2rem;
   text-decoration: none;
-  width: 40%;
+  width: 30rem;
 }
 
 .button-2 {
@@ -1052,11 +1052,11 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2rem;
   text-decoration: none;
-  width: 40%;
+  width: 30rem;
 }
 
 .button-busybus {
@@ -1076,10 +1076,10 @@ h3 {
   line-height: 150%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-decoration: none;
-  width: 40%;
+  width: 30rem;
 
 }
 
@@ -1122,26 +1122,26 @@ h3 {
     letter-spacing: 0.02rem;
     line-height: 150%;
     margin-bottom: 4rem;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-decoration: none;
-    width: 40%;
+    width: 30rem;
 
   }
 
 
 
 .winder-pic {
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30rem;
 }
 
 .busybus-pic {
   height: 60rem;
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30rem;
 }
 
 .research-stats-box {
@@ -1161,7 +1161,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -1173,7 +1173,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -1185,7 +1185,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -1218,19 +1218,16 @@ h3 {
 .competitor-icons {
   display: inline-flex;
   justify-content: center;
-  width: 90%;
 }
 
 .persona-image1 {
   justify-content: center;
   padding-bottom: 2rem;
-  width: 90%;
 }
 
 .persona-image2 {
   justify-content: center;
   padding-bottom: 2rem;
-  width: 90%;
 }
 
 .flow-image1 {
@@ -1243,18 +1240,13 @@ h3 {
 
 }
 
-.sketches {
-  width: 90%;
-}
 
 .sketches-wireframes1 {
   justify-content: center;
-  width: 90%;
 }
 
 .sketches-wireframes2 {
   justify-content: center;
-  width: 90%;
 }
 
 
@@ -1270,25 +1262,15 @@ h3 {
 .sketches-narrow-item1 {
   margin: 1rem;
   padding: .5rem;
-  width: 80%;
 
 }
 
 .sketches-narrow-item2 {
   margin: 1rem;
   padding: .5rem;
-  width: 80%;
 
 }
 
-
-.mockups1 {
-  width: 90%;
-}
-
-.mockups2 {
-  width: 90%;
-}
 
 .modal-buttons-images {
   display: grid;
@@ -1400,7 +1382,6 @@ h3 {
   grid-row-start: 3;
   grid-row-end: 4;
   justify-content: center;
-  width: 60%;
 }
 
 .flow-image2 {
@@ -1409,7 +1390,6 @@ h3 {
   grid-row-start: 3;
   grid-row-end: 4;
   justify-content: center;
-  width: 60%;
 
 }
 
@@ -1492,7 +1472,6 @@ h3 {
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
-  width: 80%;
 }
 
 .logo-branding .mockups2 {
@@ -1500,7 +1479,6 @@ h3 {
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  width: 80%;
 }
 
 
@@ -1521,7 +1499,6 @@ h3 {
   justify-content: center;
   margin-left: 3.7rem;
   margin-right: 3.8rem;
-  width: 80%;
 
 }
 
@@ -1613,11 +1590,11 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2rem;
   text-decoration: none;
-  width: 40%;
+  width: 30rem;
 }
 
 .button-2 {
@@ -1636,11 +1613,11 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 2rem;
   text-decoration: none;
-  width: 40%;
+  width: 30rem;
 }
 
 .button-busybus {
@@ -1660,10 +1637,10 @@ h3 {
   line-height: 150%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-decoration: none;
-  width: 40%;
+  width: 30rem;
 
 }
 
@@ -1705,10 +1682,10 @@ h3 {
     letter-spacing: 0.02rem;
     line-height: 150%;
     margin-bottom: 4rem;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 5;
+    margin-right: 5%;
     text-decoration: none;
-    width: 40%;
+    width: 30rem;
 
   }
 
@@ -1743,16 +1720,15 @@ h3 {
   }
 
 .winder-pic {
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30rem;
 }
 
 .busybus-pic {
-  height: 80rem;
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 30rem;
 }
 
 .research-stats-box {
@@ -1773,7 +1749,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -1785,7 +1761,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -1797,7 +1773,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -1830,7 +1806,6 @@ h3 {
 .competitor-icons {
   display: inline-flex;
   justify-content: center;
-  width: 90%;
 }
 
 
@@ -1838,14 +1813,12 @@ h3 {
   justify-content: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  width: 90%;
 }
 
 .persona-image2 {
   justify-content: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  width: 90%;
 }
 
 .flow-image1 {
@@ -1856,20 +1829,14 @@ justify-content: center;
 justify-content: center;
 }
 
-.sketches {
-  width: 90%;
-
-}
 
 .sketches-wireframes1 {
   justify-content: center;
-  width: 90%;
 
 }
 
 .sketches-wireframes2 {
   justify-content: center;
-  width: 90%;
 
 }
 
@@ -1886,30 +1853,27 @@ justify-content: center;
 .sketches-narrow-item1 {
   margin: 1rem;
   padding: .5rem;
-  width: 80%;
 
 }
 
 .sketches-narrow-item2 {
   margin: 1rem;
   padding: .5rem;
-  width: 80%;
 
 }
 
 .mockups1 {
-  width: 90%;
 }
 
 .mockups2 {
-  width: 90%;
+
 }
 
 .winder-dashboard-detail {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 0;
-  width: 80%;
+  width: 30rem;
 
 }
 .modal-buttons-images {
@@ -2111,7 +2075,6 @@ justify-content: center;
   justify-content: center;
   margin-left: 3.7rem;
   margin-right: 3.8rem;
-  width: 80%;
 
 }
 
@@ -2321,7 +2284,7 @@ h3 {
     margin-left: 3.7rem;
     margin-top: 2rem;
     text-decoration: none;
-    width: 80%;
+    width: 30rem;
   }
 
 
@@ -2342,7 +2305,7 @@ h3 {
     margin-left: 3.7rem;
     margin-top: 1rem;
     text-indent: 1rem;
-    width: 20%;
+    width: 30rem;
 
   }
 
@@ -2364,7 +2327,7 @@ h3 {
     margin-top: 1rem;
     margin-left:  3.7rem;
     text-indent: 1rem;
-    width: 20%;
+    width: 30rem;
 
   }
 
@@ -2384,7 +2347,7 @@ h3 {
     margin-bottom: 1rem;
     margin-left:  3.7rem;
     text-indent: 1rem;
-    width: 20%;
+    width: 30rem;
 
   }
 
@@ -2441,7 +2404,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -2453,7 +2416,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -2465,7 +2428,7 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 1rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -2498,7 +2461,6 @@ h3 {
 .competitor-icons {
   display: inline-flex;
   justify-content: center;
-  width: 100%;
 }
 
 .persona-image1 {
@@ -2515,16 +2477,16 @@ h3 {
 
 .flow-image1{
   justify-content: center;
-  width: 50%;
+
 }
 
 .flow-image2{
   justify-content: center;
-  width: 50%;
+
 }
 
 .sketches {
-  width: 30%;
+
 }
 
 
@@ -2532,7 +2494,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-bottom: 2rem;
 
 }
@@ -2540,35 +2502,33 @@ h3 {
 .sketches-narrow-item1 {
   margin: 1rem;
   padding: 1rem;
-  width: 40%;
+
 
 }
 
 .sketches-narrow-item2 {
   margin: 1rem;
   padding: 1rem;
-  width: 40%;
+
 
 }
 
 .logo-branding .mockups1 {
-  height: 40rem;
-  width: 30%;
+
+
 }
 
 .logo-branding .mockups2 {
-  height: 40rem;
-  width: 30%;
+
+
 }
 
 .testing-round-2 .mockups1 {
-  height: 50rem;
-  width: 30%;
+
 }
 
 .testing-round-2 .mockups2 {
-  height: 50rem;
-  width: 30%;
+
 }
 
 
@@ -2834,7 +2794,7 @@ h3 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  margin: 25%;
+  margin: 5%;
   width: 30rem;
 }
 
@@ -2844,7 +2804,7 @@ h3 {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  margin: 25%;
+  margin: 5%;
   width: 30rem;
 }
 
@@ -2878,7 +2838,7 @@ h3 {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
+
 }
 
 .email {
@@ -2886,14 +2846,14 @@ h3 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
+
 }
 .message {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  width: 100%;
+
 }
 
 .contact button {
