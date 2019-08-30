@@ -394,10 +394,6 @@ p {
   font-weight: normal;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-bottom: 3rem;
-  margin-left: 1.6rem;
-  margin-right: 1.6rem;
-  margin-top: 2rem;
 
 }
 
@@ -714,10 +710,6 @@ footer {
     font-weight: normal;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    margin-bottom: 2rem;
-    margin-left: 3.8rem;
-    margin-right: 3.7rem;
-    margin-top: 0;
     padding-bottom: 1rem;
 
   }
@@ -796,7 +788,6 @@ footer {
 .competitor-icons {
   display: inline-flex;
   justify-content: center;
-  margin: 2rem;
 }
 
 .pinterest-icon {
@@ -1950,7 +1941,6 @@ justify-content: center;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
 }
 
 .user-stories blockquote {
@@ -1983,7 +1973,6 @@ justify-content: center;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
 }
 
 .content-strategy blockquote {
@@ -2095,7 +2084,6 @@ justify-content: center;
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
-  width: 80%;
 }
 
 .logo-branding .mockups2 {
@@ -2103,7 +2091,6 @@ justify-content: center;
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  width: 80%;
 }
 
 
@@ -2584,13 +2571,7 @@ h3 {
   width: 30%;
 }
 
- p {
-   width: 100%;
- }
 
- .hi-fi-mockups-prototypes p {
-   width: 40%;
- }
 
  /*desktop grid*/
 
@@ -2996,7 +2977,7 @@ h3 {
   grid-row-end: 3;
 }
 
-.conclusion{
+.conclusion {
   display: grid;
   grid-column-gap: 10rem;
   grid-row-gap: 4rem;
@@ -3141,7 +3122,6 @@ textarea {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 100%;
 }
 
 .content-strategy blockquote {
@@ -3176,7 +3156,6 @@ textarea {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 80%;
 
 }
 
@@ -3185,7 +3164,6 @@ textarea {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 80%;
 
 }
 
@@ -3272,8 +3250,7 @@ textarea {
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  margin-left: 3.7rem;
-  width: 90%;
+
 
 }
 
@@ -3282,8 +3259,7 @@ textarea {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  margin-left: 3.7rem;
-  width: 90%;
+
 
 }
 
@@ -3322,14 +3298,13 @@ textarea {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: 150%;
 }
 
 .logo-branding {
   display: grid;
   grid-column-gap: 10rem;
   grid-row-gap: 2rem;
-  grid-template-columns: 50rem 50rem;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 6rem 18rem 18rem 46rem;
 }
 
@@ -3373,7 +3348,6 @@ textarea {
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
-  width: 100%;
 }
 
 .logo-branding .mockups2 {
@@ -3381,19 +3355,15 @@ textarea {
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  width: 100%;
 }
 
-.content-strategy p {
-  width: 80%;
-}
 
 .testing-round-2 {
   background-color: hsla(0, 99%, 68%, .05);
   display: grid;
   grid-column-gap: 10rem;
   grid-row-gap: 2rem;
-  grid-template-columns: 60rem 60rem;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 6rem 30rem 30rem 60rem;
   padding-bottom: 6rem;
 }
@@ -3447,7 +3417,6 @@ textarea {
   justify-content: center;
   margin-left: 3.7rem;
   margin-right: 3.8rem;
-  width: 80%;
 
 }
 
