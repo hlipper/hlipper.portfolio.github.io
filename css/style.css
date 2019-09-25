@@ -186,6 +186,10 @@ h3 {
 
 }
 
+.bio p {
+  padding-bottom: 1rem;
+}
+
 .winder-pic {
   align-self: center;
   margin-left: 10%;
@@ -2090,8 +2094,9 @@ h3 {
   .bio {
    display: grid;
    grid-column-gap: 10rem;
-   grid-row-gap: 0.5rem;
+   grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto;
   }
 
   .bio h1 {
