@@ -70,6 +70,7 @@ nav {
   font-weight: 700;
   line-height: 120%;
   margin-left: 3.8rem;
+  margin-left: 3.7rem;
   margin-top: 6rem;
   z-index: 2;
 }
@@ -81,7 +82,7 @@ nav {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02rem;
-  line-height: 150%;
+  line-height: 130%;
   margin-bottom: 1rem;
   margin-left: 3.8rem;
   margin-right: 3.7rem;
@@ -141,8 +142,8 @@ a {
   line-height: 8.1rem;
   margin-left: 3.8rem;
   margin-right: 3rem;
-  padding-top: 4rem;
 }
+
 
 
 h3 {
@@ -163,13 +164,12 @@ h3 {
 }
 
 .bio {
-  margin: 2rem;
+  margin: 3.8rem;
   padding-bottom: 2rem;
 }
 
 .bio h2 {
-  margin-top: 4rem;
-
+  margin-left: 0;
 }
 
 .bio h3 {
@@ -180,9 +180,8 @@ h3 {
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 600;
-  height: 2rem;
   letter-spacing: 0.02rem;
-  line-height: 150%;
+  margin-left: 0;
   margin-top: 2rem;
 
 }
