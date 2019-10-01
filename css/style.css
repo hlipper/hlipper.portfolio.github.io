@@ -35,7 +35,7 @@ nav {
   align-items: center;
   color: #272728;
   font-family: "Poppins", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 600;
   padding: 1rem;
   text-align: center;
@@ -157,7 +157,6 @@ h3 {
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 500;
-  height: 9rem;
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
@@ -426,7 +425,7 @@ p {
   margin-left: 3.7rem;
   margin-top: 1rem;
   text-indent: 1rem;
-  width: 30rem;
+  width: 24rem;
 
 }
 
@@ -448,7 +447,7 @@ p {
   margin-left: 3.7rem;
   margin-top: 1rem;
   text-indent: 1rem;
-  width: 30rem;
+  width: 24rem;
 
 }
 
@@ -468,7 +467,7 @@ p {
   margin-bottom: 1rem;
   margin-left:  3.7rem;
   text-indent: 1rem;
-  width: 30rem;
+  width: 24rem;
 
 }
 
@@ -490,7 +489,7 @@ p {
   margin-bottom: 4rem;
   margin-left: 3.7rem;
   text-decoration: none;
-  width: 30rem;
+  width: 24rem;
 
 
 }
@@ -994,7 +993,6 @@ h3 {
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 500;
-  height: 5rem;
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 1rem;
@@ -1093,6 +1091,18 @@ h3 {
     margin-top: 2rem;
     text-decoration: none;
     width: 30rem;
+  }
+
+  .name {
+    width: 40rem;
+  }
+
+  .email {
+    width: 40rem;
+  }
+
+  .message {
+    width: 40rem;
   }
 
 
@@ -1558,7 +1568,6 @@ h3 {
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 500;
-    height: 5rem;
     letter-spacing: 0.02rem;
     line-height: 150%;
     margin-bottom: 1rem;
@@ -1672,7 +1681,7 @@ h3 {
     margin-left: 3.7rem;
     margin-top: 1rem;
     text-indent: 1rem;
-    width: 30rem;
+    width: 40rem;
       }
 
   .email {
@@ -1693,7 +1702,7 @@ h3 {
     margin-top: 1rem;
     margin-left:  3.7rem;
     text-indent: 1rem;
-    width: 30rem;
+    width: 40rem;
       }
 
   .message {
@@ -1712,7 +1721,7 @@ h3 {
     margin-bottom: 1rem;
     margin-left:  3.7rem;
     text-indent: 1rem;
-    width: 30rem;
+    width: 40rem;
       }
 
   .contact-button {
