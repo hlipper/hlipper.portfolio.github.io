@@ -169,6 +169,7 @@ h3 {
 .bio {
   margin-left: 3.7rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .bio h2 {
@@ -195,18 +196,13 @@ h3 {
 }
 
 .winder-pic {
-  align-self: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 28rem;
-
+  margin-left: 3.7rem;
+  width: 26rem;
 }
 
 .busybus-pic {
-  align-self: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 28rem;
+  margin-left: 3.7rem;
+  width: 26rem;
 
 }
 
@@ -259,10 +255,10 @@ h3 {
   line-height: 150%;
   margin-bottom: 4rem;
   margin-top: 2rem;
-  margin-left: 1rem;
+  margin-left: 3.7rem;
   margin-right: 1rem;
   text-decoration: none;
-  width: 30rem;
+  width: 26rem;
 
 }
 .button :visited {
@@ -286,10 +282,10 @@ h3 {
   line-height: 150%;
   margin-bottom: 4rem;
   margin-top: 2rem;
-  margin-left: 1rem;
+  margin-left: 3.7rem;
   margin-right: 1rem;
   text-decoration: none;
-  width: 30rem;
+  width: 26rem;
 
 }
 .button-2 :visited {
@@ -313,11 +309,11 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 4rem;
-  margin-left: 1rem;
+  margin-left: 3.7rem;
   margin-right: 1rem;
   margin-top: 2rem;
   text-decoration: none;
-  width: 30rem;
+  width: 26rem;
 
 }
 
@@ -621,7 +617,6 @@ footer {
 }
 
 .container-project p {
-  margin-left: 1.6rem;
   max-width: 50rem;
 }
 
@@ -657,7 +652,6 @@ footer {
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 4rem;
-  padding-top: 4rem;
   width: 100%;
 
 }
@@ -724,16 +718,15 @@ footer {
 
 
 .winder-dashboard-detail {
-  margin-left: 3.8rem;
-  margin-right: 3.7rem;
-  margin-top: 0;
+  margin-left: 3.7rem;
+  width: 28rem;
 
 }
 
 .research-stat1 {
   background-color: hsla(0,99%,68%,5%);
   border-radius: 5px;
-  height: 22rem;
+  height: 24rem;
   margin-bottom: 1rem;
   margin-left: 3.8rem;
   margin-right: 3.7rem;
@@ -745,7 +738,7 @@ footer {
 .research-stat2 {
   background-color: hsla(0,99%,68%,5%);
   border-radius: 5px;
-  height: 22rem;
+  height: 24rem;
   margin-bottom: 1rem;
   margin-left: 3.8rem;
   margin-right: 3.7rem;
@@ -757,7 +750,7 @@ footer {
 .research-stat3 {
   background-color: hsla(0,99%,68%,5%);
   border-radius: 5px;
-  height: 22rem;
+  height: 24rem;
   margin-bottom: 1rem;
   margin-left: 3.8rem;
   margin-right: 3.7rem;
@@ -929,9 +922,6 @@ footer {
 
 .modal-buttons-images {
   justify-content: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 30rem;
 }
 
 /*for iPad*/
@@ -1275,12 +1265,14 @@ h3 {
 .sketches-narrow-item1 {
   margin: 1rem;
   padding: .5rem;
+  width: 100%;
 
 }
 
 .sketches-narrow-item2 {
   margin: 1rem;
   padding: .5rem;
+  width: 100%;
 
 }
 
@@ -1764,6 +1756,10 @@ h3 {
     width: 30rem;
     }
 
+    .contact {
+      padding-left: 3.7rem;
+    }
+
   .summary {
     background-color: hsla(0, 99%, 68%, .05);
     padding-bottom: 4rem;
@@ -1815,6 +1811,10 @@ h3 {
   .research-stats-box {
     margin-left: 3.8rem;
     margin-right: 3.7rem;
+  }
+
+  .research-stats-box a {
+    margin-left: 0;
   }
 
   .research-stat1 {
@@ -2132,7 +2132,7 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: auto;
+
   }
 
   .bio h1 {
@@ -2227,6 +2227,7 @@ h3 {
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 6rem 10rem 10rem 10rem 10rem 4rem 22rem;
+   margin-left: 3.7rem;
   }
 
   .summary h1 {
@@ -2291,16 +2292,14 @@ h3 {
    display: grid;
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
-   grid-template-columns: 64rem 64rem;
-   grid-template-rows: 4rem 23rem;
+   grid-template-columns: 1fr 1fr;
   }
 
   .user-research {
    display: grid;
    grid-column-gap: 10rem;
-   grid-row-gap: 4rem;
-   grid-template-columns: 64rem 64rem;
-   grid-template-rows: 4rem 28rem;
+   grid-row-gap: 2rem;
+   grid-template-columns: 1fr 1fr;
   }
 
   .user-research h3 {
@@ -2324,12 +2323,18 @@ h3 {
    grid-row-end: 3;
   }
 
+  .user-research a {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 3;
+   grid-row-end: 4;
+  }
+
   .competitive-analysis {
    display: grid;
    grid-column-gap: 10rem;
    grid-row-gap: 4rem;
-   grid-template-columns: 64rem 64rem;
-   grid-template-rows: 4rem 28rem;
+   grid-template-columns: 1fr 1fr;
   }
 
   .competitive-analysis h3 {
@@ -2346,6 +2351,13 @@ h3 {
    grid-row-end: 3;
   }
 
+  .competitive-analysis a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
   .competitor-icons {
    grid-column-start: 2;
    grid-column-end: 3;
@@ -2356,9 +2368,8 @@ h3 {
   .conclusion {
    display: grid;
    grid-column-gap: 10rem;
-   grid-row-gap: 4rem;
+   grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 4rem 28rem;
   }
 
   .conclusion h3 {
@@ -2387,7 +2398,6 @@ h3 {
    grid-column-gap: 2rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 6rem 20rem 20rem 20rem 20rem;
   }
 
   .personas h3 {
@@ -2444,7 +2454,6 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 6rem 30rem;
   }
 
   .user-stories h3 {
@@ -2473,7 +2482,6 @@ h3 {
    grid-column-gap: 2rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 6rem auto;
   }
 
   .content-strategy h3 {
@@ -2502,7 +2510,6 @@ h3 {
    grid-column-gap: 4rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 6rem auto;
   }
 
   .user-flows h3 {
@@ -2540,41 +2547,12 @@ h3 {
    grid-row-end: 4;
   }
 
-  .sitemap {
-   display: grid;
-   grid-column-gap: 30rem;
-   grid-row-gap: 2rem;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 6rem auto;
-  }
-
-  .sitemap h3{
-   grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 1;
-   grid-row-end: 2;
-  }
-
-  .sitemap p{
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 2;
-   grid-row-end: 3;
-  }
-
-  .sitemap a {
-   grid-column-start: 2;
-   grid-column-end: 3;
-   grid-row-start: 2;
-   grid-row-end: 3;
-  }
 
   .sketches-wireframes {
    display: grid;
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
-   grid-template-columns: 60rem 60rem;
-   grid-template-rows: 6rem 10rem 60rem;
+   grid-template-columns: 1fr 1fr
   }
 
   .sketches-wireframes h3 {
@@ -2636,7 +2614,6 @@ h3 {
   .sketches-narrow {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: auto;
    grid-column-start: 2;
    grid-column-end: 3;
    grid-row-start: 2;
@@ -2648,7 +2625,6 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 6rem 18rem 18rem 46rem;
   }
 
   .logo-branding h3 {
