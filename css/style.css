@@ -75,7 +75,7 @@ nav {
   line-height: 120%;
   margin-left: 3.8rem;
   margin-left: 3.7rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
   z-index: 2;
 }
 
@@ -167,7 +167,7 @@ h3 {
 }
 
 .bio {
-  margin: 3.8rem;
+  margin-left: 3.7rem;
   padding-bottom: 2rem;
 }
 
@@ -190,22 +190,23 @@ h3 {
 }
 
 .bio p {
+
   padding-bottom: 1rem;
 }
 
 .winder-pic {
   align-self: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 28rem;
 
 }
 
 .busybus-pic {
   align-self: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 28rem;
 
 }
 
@@ -258,10 +259,10 @@ h3 {
   line-height: 150%;
   margin-bottom: 4rem;
   margin-top: 2rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-decoration: none;
-  width: 80%;
+  width: 30rem;
 
 }
 .button :visited {
@@ -285,10 +286,10 @@ h3 {
   line-height: 150%;
   margin-bottom: 4rem;
   margin-top: 2rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-decoration: none;
-  width: 80%;
+  width: 30rem;
 
 }
 .button-2 :visited {
@@ -312,11 +313,11 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 4rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-top: 2rem;
   text-decoration: none;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -329,7 +330,7 @@ color: inherit;
   margin-right: 3.9rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -338,7 +339,7 @@ color: inherit;
   margin-right: 3.9rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -352,14 +353,14 @@ color: inherit;
 .sketches-narrow-item1 {
   display: flex;
   padding: .5rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
 .sketches-narrow-item2 {
   display: flex;
   padding: .5rem;
-  width: 80%;
+  width: 30rem;
 
 }
 
@@ -368,7 +369,7 @@ color: inherit;
   margin-right: 3.9rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  width: 80%;
+  width: 30rem;
 }
 
 .mockups2 {
@@ -376,7 +377,7 @@ color: inherit;
   margin-right: 3.9rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  width: 80%;
+  width: 30rem;
 }
 
 p {
@@ -394,10 +395,16 @@ p {
 
 .contact {
   background-color: hsla(240, 1%, 15%, 0.8);
+  display: block;
   justify: center;
+  margin: 0, auto;
   padding-bottom: 1rem;
   padding-top: 1rem;
 
+}
+
+textarea {
+  padding-top: 1.6rem;
 }
 
 .contact h2 {
@@ -598,7 +605,10 @@ footer {
 .footer-p {
   color: #ffffff;
   font-size: 1rem;
-  padding: 1rem;
+  margin-left: 3.7rem;
+  padding-bottom: 2rem;
+  padding-left: 3.7rem;
+  padding-top: 1rem;
 }
 
 
@@ -691,7 +701,7 @@ footer {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 0rem;
-  margin-left: 3.8rem;
+  margin-left: 3.7rem;
   margin-right: 3.7rem;
   margin-top: 3rem;
 
@@ -706,7 +716,9 @@ footer {
     font-weight: normal;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    padding-bottom: 1rem;
+    margin-left: 3.7rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
 
   }
 
@@ -715,7 +727,6 @@ footer {
   margin-left: 3.8rem;
   margin-right: 3.7rem;
   margin-top: 0;
-
 
 }
 
@@ -811,15 +822,15 @@ footer {
 
 .persona-image1 {
 
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 30rem;
 }
 
 .persona-image2 {
 
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 30rem;
 }
 
@@ -878,12 +889,12 @@ footer {
 
 .flow-image1 {
   justify-content: center;
-  margin: 5%;
+  margin: 1rem;
 }
 
 .flow-image2 {
   justify-content: center;
-  margin: 5%;
+  margin: 1rem;
 }
 
 .branding-links-button {
@@ -902,8 +913,7 @@ footer {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 4rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 3.7rem;
   margin-top: 2rem;
   text-decoration: none;
   width: 30rem;
@@ -911,16 +921,16 @@ footer {
 }
 
 .long-mockups {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding-bottom: 4rem;
   width: 30rem;
 }
 
 .modal-buttons-images {
   justify-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 30rem;
 }
 
@@ -958,8 +968,8 @@ footer {
   }
 
   .winder-dashboard-detail {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 0;
     width: 30rem;
 
@@ -1018,8 +1028,8 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-top: 2rem;
   text-decoration: none;
   width: 30rem;
@@ -1041,8 +1051,8 @@ h3 {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-bottom: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-top: 2rem;
   text-decoration: none;
   width: 30rem;
@@ -1065,8 +1075,8 @@ h3 {
   line-height: 150%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-decoration: none;
   width: 30rem;
 
@@ -1105,6 +1115,9 @@ h3 {
     width: 40rem;
   }
 
+  textarea {
+    padding-top: 1.6rem;
+  }
 
 
   .contact-button {
@@ -1132,15 +1145,15 @@ h3 {
 
 
 .winder-pic {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 30rem;
 }
 
 .busybus-pic {
   height: 60rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 30rem;
 }
 
@@ -1231,12 +1244,12 @@ h3 {
 }
 
 .flow-image1 {
-  margin-left: 20%;
+  margin-left: 4rem;
 
 }
 
 .flow-image2 {
-  margin-left: 20%;
+  margin-left: 4rem;
 
 }
 
@@ -1510,8 +1523,9 @@ h3 {
 
   @media only screen and (min-width: 1024px) {
 
-    .hero {
-      margin: 20rem;
+  .hero {
+    margin: 20rem;
+    max-width: 125rem;
     }
 
   .hero h1 {
@@ -1574,6 +1588,11 @@ h3 {
     margin-left: 3.8rem;
     margin-right: 3.7rem;
     margin-top: 2rem;
+  }
+
+  .bio {
+    margin-left: 3.7rem;
+    padding-left: 3.7rem;
   }
 
   .button {
@@ -1776,7 +1795,7 @@ h3 {
     }
 
   .project-winder {
-    padding-left: 7rem;
+    padding-left: 3.7rem;
     padding-top: 6rem;
     }
 
@@ -2064,6 +2083,7 @@ h3 {
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 10rem 10rem 15rem 24rem 10rem;
+   padding-left: 3.7rem;
    padding-top: 6rem;
   }
 
