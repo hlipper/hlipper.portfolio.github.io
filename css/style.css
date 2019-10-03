@@ -57,7 +57,7 @@ nav {
 /*hero*/
 
 .hero {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .hero-bold {
@@ -162,8 +162,6 @@ h3 {
   margin-bottom: 2rem;
   margin-left: 3.8rem;
   margin-right: 3.7rem;
-  margin-top: 2rem;
-
 }
 
 .bio {
@@ -508,7 +506,6 @@ textarea {
   flex-wrap: wrap;
   margin-bottom: 2rem;
   margin-left: 3.3rem;
-  margin-top: 2rem;
 }
 
 .mdl-chip-winder {
@@ -612,7 +609,9 @@ footer {
 /*project page specific stuff*/
 
 .container-project {
-  margin-top: 6rem;
+  justify: center;
+  margin: 0, auto;
+  padding-top: 6rem;
 
 }
 
@@ -651,7 +650,6 @@ footer {
 .winder-desktop-landing-page-pic {
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 4rem;
   width: 100%;
 
 }
@@ -659,7 +657,6 @@ footer {
 .container-project h1 {
   align-items: center;
   color: #FE5D5D;
-  display: flex;
   font-family: "Poppins",sans-serif;
   font-size: 5.4rem;
   font-style: normal;
@@ -667,7 +664,6 @@ footer {
   letter-spacing: 0.02rem;
   line-height: 150%;
   margin-left: 3.8rem;
-  margin-top: 2rem;
 
 }
 
@@ -696,9 +692,6 @@ footer {
   line-height: 150%;
   margin-bottom: 0rem;
   margin-left: 3.7rem;
-  margin-right: 3.7rem;
-  margin-top: 3rem;
-
 
 }
 
@@ -711,14 +704,12 @@ footer {
     letter-spacing: 0.02rem;
     line-height: 150%;
     margin-left: 3.7rem;
-    margin-top: 2rem;
     padding-bottom: 2rem;
 
   }
 
 
 .winder-dashboard-detail {
-  margin-left: 3.7rem;
   width: 28rem;
 
 }
@@ -841,14 +832,10 @@ footer {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: bold;
-  height: 2rem;
   letter-spacing: 0.02rem;
   line-height: 120%;
   margin-bottom: 2rem;
-  margin-left: 7rem;
-  margin-right: 3rem;
   margin-top: 2rem;
-  width: 27rem;
 
 }
 
@@ -914,8 +901,6 @@ footer {
 }
 
 .long-mockups {
-  margin-left: 1rem;
-  margin-right: 1rem;
   padding-bottom: 4rem;
   width: 30rem;
 }
@@ -1265,14 +1250,14 @@ h3 {
 .sketches-narrow-item1 {
   margin: 1rem;
   padding: .5rem;
-  width: 100%;
+  width: 20rem;
 
 }
 
 .sketches-narrow-item2 {
   margin: 1rem;
   padding: .5rem;
-  width: 100%;
+  width: 20rem;
 
 }
 
@@ -1281,7 +1266,6 @@ h3 {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
 }
 
 .user-stories {
@@ -1289,7 +1273,6 @@ h3 {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 6rem auto;
   margin-bottom: 6rem;
 
 }
@@ -1315,12 +1298,22 @@ h3 {
   grid-row-end: 3;
   padding-left: 1rem;
 }
+
+.button .user-stories {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-left: 3.7rem;
+
+}
+
+
 .content-strategy {
   display: grid;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 8rem auto;
   margin-bottom: 2rem;
 
 }
@@ -1353,7 +1346,6 @@ h3 {
   grid-column-gap: 4rem;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 6rem auto;
   padding-top: 2rem;
 
 }
@@ -1434,7 +1426,6 @@ h3 {
   grid-column-gap: 4rem;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 6rem auto;
 }
 
 .logo-branding h3 {
@@ -1502,9 +1493,12 @@ h3 {
 
 .modal-buttons-images .mockups {
   justify-content: center;
-  margin-left: 3.7rem;
-  margin-right: 3.8rem;
 
+
+}
+
+.modal-buttons-images figure {
+  max-width: 30rem;
 }
 
 
@@ -1514,6 +1508,20 @@ h3 {
   /*for iPad Pro, Desktop*/
 
   @media only screen and (min-width: 1024px) {
+
+ .sitemap {
+   padding-bottom: 4rem;
+   padding-top: 4rem;
+ }
+
+ .sitemap h3 {
+   margin-bottom: 2rem;
+
+ }
+
+ .sitemap p {
+   margin-bottom: 2rem;
+ }
 
   .hero {
     margin: 20rem;
@@ -1579,7 +1587,6 @@ h3 {
     margin-bottom: 1rem;
     margin-left: 3.8rem;
     margin-right: 3.7rem;
-    margin-top: 2rem;
   }
 
   .bio {
@@ -1602,9 +1609,9 @@ h3 {
     justify-content: center;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     margin-left: 3.7rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     text-decoration: none;
     width: 30rem;
   }
@@ -1624,9 +1631,9 @@ h3 {
     justify-content: center;
     letter-spacing: 0.02rem;
     line-height: 150%;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     margin-left: 3.7rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     text-decoration: none;
     width: 30rem;
   }
@@ -1811,6 +1818,8 @@ h3 {
   .research-stats-box {
     margin-left: 3.8rem;
     margin-right: 3.7rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 
   .research-stats-box a {
@@ -1927,9 +1936,8 @@ h3 {
   }
 
   .winder-dashboard-detail {
-    margin-left: 3.7rem;
-    margin-top: 0;
-    width: 30rem;
+    max-width: 500px;
+    width: 50rem;
   }
 
   .modal-buttons-images {
@@ -1937,13 +1945,6 @@ h3 {
     padding-top: 4rem;
   }
 
-  .user-stories {
-    padding-bottom: 12rem;
-  }
-
-  .user-stories blockquote {
-    padding-left: 2rem;
-  }
 
   .content-strategy {
     margin-bottom: 2rem;
@@ -2059,7 +2060,6 @@ h3 {
     grid-column-gap: 10rem;
     grid-row-gap: 2rem;
     grid-template-columns: 50rem 50rem;
-    grid-template-rows: 8rem 20rem 20rem;
   }
 
   .testing-part-2 {
@@ -2067,10 +2067,15 @@ h3 {
     grid-column-gap: 10rem;
     grid-row-gap: 2rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 6rem 30rem 30rem 60rem;
   }
 
   .branding-links {
+    display: grid;
+    grid-gap: 13rem;
+    grid-template-columns: 32rem 32rem 32rem;
+  }
+
+  .sketches-links {
     display: grid;
     grid-gap: 13rem;
     grid-template-columns: 32rem 32rem 32rem;
@@ -2226,8 +2231,8 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 6rem 10rem 10rem 10rem 10rem 4rem 22rem;
-   margin-left: 3.7rem;
+   padding-right: 4rem;
+
   }
 
   .summary h1 {
@@ -2262,29 +2267,31 @@ h3 {
    grid-column-start: 1;
    grid-column-end: 2;
    grid-row-start: 5;
-   grid-row-end: 6;
+   grid-row-end: 7;
   }
 
   .summary a {
-   align-items: center;
    grid-column-start:2;
    grid-column-end: 3;
-   grid-row-start: 2;
-   grid-row-end: 3;
+   grid-row-start: 5;
+   grid-row-end: 6;
   }
 
   .summary .button-2 {
    align-items: center;
    grid-column-start:2;
    grid-column-end: 3;
-   grid-row-start: 3;
-   grid-row-end: 4;
+   grid-row-start: 6;
+   grid-row-end: 7;
+
   }
 
   .summary figure {
    grid-column-start: 2;
-   grid-row-start: 4;
-   grid-row-end: 6;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 5;
+
   }
 
 
@@ -2293,6 +2300,13 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
+   padding-bottom: 4rem;
+   padding-top: 4rem;
+  }
+
+  .problem-solution h3 {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
   }
 
   .user-research {
@@ -2328,13 +2342,18 @@ h3 {
    grid-column-end: 2;
    grid-row-start: 3;
    grid-row-end: 4;
+   margin-left: 3.7rem;
   }
+
+
 
   .competitive-analysis {
    display: grid;
    grid-column-gap: 10rem;
    grid-row-gap: 4rem;
    grid-template-columns: 1fr 1fr;
+   padding-bottom: 4rem;
+   padding-top: 4rem;
   }
 
   .competitive-analysis h3 {
@@ -2356,6 +2375,7 @@ h3 {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+    margin-left: 3.7rem;
   }
 
   .competitor-icons {
@@ -2367,7 +2387,7 @@ h3 {
 
   .conclusion {
    display: grid;
-   grid-column-gap: 10rem;
+   grid-column-gap: 2rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
   }
@@ -2454,6 +2474,9 @@ h3 {
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
+   padding-bottom: 4rem;
+   padding-top: 4rem;
+
   }
 
   .user-stories h3 {
@@ -2706,11 +2729,11 @@ h3 {
 
   .modal-buttons-images {
    display: grid;
-   grid-column-gap: 12rem;
+   grid-column-gap: 2rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
    grid-column-start: 1;
-   grid-column-end: 3;
+   grid-column-end: 2;
    grid-row-start: 4;
    grid-row-end: 5;
   }
