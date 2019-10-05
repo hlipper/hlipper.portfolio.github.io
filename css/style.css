@@ -1048,8 +1048,7 @@ footer {
 
 .conclusion .container {
  display: grid;
- grid-column-gap: 2rem;
- grid-row-gap: 2rem;
+ grid-column-gap: 10rem;
  grid-template-columns: 1fr 1fr;
  padding-bottom: 2rem;
  padding-top: 2rem;
