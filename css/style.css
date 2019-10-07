@@ -803,6 +803,26 @@ footer {
   padding-bottom: 2rem;
 }
 
+.summary-locket {
+  background-color: #000000;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.problem-solution-locket {
+  background-color: #AFD0ED;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.problem-solution-locket h3 {
+    color: #000000;
+}
+
+.problem-solution-locket p {
+    color: #000000;
+}
+
 .summary h1 {
   color: #FE5D5D;
   font-family: "Poppins", sans-serif;
@@ -814,6 +834,34 @@ footer {
   margin-top: 2rem;
 }
 
+
+.summary-locket h1 {
+  color: #50A9F6;
+  font-family: "Poppins", sans-serif;
+  font-size: 5.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.locket-h3 {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+}
+
+.locket-p {
+  color: #ffffff;
+  max-width: 55rem;
+  padding-bottom: 1rem;
+}
 
 .user-research .container {
  padding-bottom: 2rem;
@@ -889,6 +937,12 @@ figcaption {
   width: 100%;
 }
 
+.locket-desktop-landing-page-pic {
+  padding-top: 6rem;
+  width: 100%;
+}
+
+
 .mindmap {
   width: 100%;
 }
@@ -903,6 +957,18 @@ figcaption {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+
+.locket-h2 {
+ align-items: center;
+ color: #ffffff;
+ display: flex;
+ font-family: "Poppins",sans-serif;
+ font-size: 2.4rem;
+ font-style: normal;
+ font-weight: 500;
+ letter-spacing: 0.02em;
+}
+
 
 .winder-dashboard-detail {
   padding-top: 2rem;
@@ -1180,6 +1246,11 @@ figcaption {
   justify-content: center;
 }
 
+.summary-locket .button-box {
+  display: flex;
+  justify-content: center;
+}
+
 .contact {
   display: block;
   padding-top: 4rem;
@@ -1337,6 +1408,40 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   padding-bottom: 4rem;
 }
+
+.summary-locket .container {
+ display: grid;
+ grid-column-gap: 2rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+ padding-bottom: 2rem;
+}
+
+.problem-solution-locket .container {
+ display: grid;
+ grid-column-gap: 10rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+ padding-bottom: 2rem;
+ padding-top: 2rem;
+}
+
+.user-research-locket .container {
+ display: grid;
+ grid-column-gap: 10rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+ padding-bottom: 2rem;
+}
+
+.hi-fi-mockups-prototypes-locket .container {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 4rem;
+}
+
 
 .mockups1 {
   padding-bottom: 2rem;
