@@ -26,12 +26,16 @@
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
-      <figure>
-        <img src="images/locket-desktop-landing-page.png" class="locket-desktop-landing-page-pic" alt="A screenshot of the Locket desktop landing page.">
+        <div class="container">
+          <div class="center-image">
+          <figure>
+        <img src="images/locket-landing-page-portrait2.png" class="locket-pic" alt="A screenshot of a smiling woman with a beautiful pink scarf and sunglasses.">
         <figcaption></figcaption>
       </figure>
+      </div>
+      </div>
       <section class="summary-locket">
-      <div class="container">
+        <div class="container">
         <div class="text">
         <h1>Locket</h1>
         <h2 class="locket-h2">Never again wonder what you'd do if you had the time.</h2>
@@ -75,17 +79,17 @@
         track progress, and celebrate our everyday achievements. This self-contained system is free of the distractions,
         unsolicited opinions, and hasty judgments of the wider world online.  It doesn’t do more than it needs to, and shares nothing before we’re ready.
         It is a safe space where we can, over time, turn an everyday idea into something extraordinary.</p>
-</div>
-    <div class="center-image">
+      </div>
+      <div class="center-image">
       <figure>
-        <img src="images/locket-landing-page.png" class="locket-pic" alt="A screenshot of the Locket landing page.">
+          <img src="images/locket-landing-page-detail.png" class="locket-desktop-landing-page-pic" alt="A screenshot of the Locket desktop landing page content.">
         <figcaption></figcaption>
       </figure>
-    <div class="button-box">
-      <a href="https://www.figma.com/proto/Nmw335jQU5jm5mwiywj0Jivx/Hi-Fi-Clickable-Prototype-iPhone?node-id=1%3A2&scaling=scale-down" target="_blank" class = "button-locket">Mobile Prototype</a>
-  </div>
+      <div class="button-box">
+        <a href="#" target="_blank" class = "button-locket">Mobile Prototype</a>
     </div>
-      </div>
+    </div>
+    </div>
   </section>
         <section class="problem-solution-locket">
         <div class="container">
@@ -94,14 +98,20 @@
             <p class="locket-p">In 2019, we have a mind-boggling array of tools for planning our daily lives, staying on task, and tracking our progress with personal goals.
               We can sync our Google Calendar with iCal, copy it all to our Trello account - and have all three platforms reminding us to do what we must do in
               life.  Why is it that we still fall behind, forget important things, and generally fail to meet our expectations for ourselves?  Is this the sort of problem that can be solved with an app?  It doesn’t hurt to try.</p>
-        </section>
+              <p class="locket-p">I came up with the idea for this product while battling my own difficulty completing projects.
+              I have a hundred ideas for creative and self-improvement projects each year, but only a fraction of these are seen through to fruition.
+              Surely other creative people struggle with the same issue.  What is the root of the problem, and can it be adjusted for?
+              I carried the entire project from the research phase through visual design, prototyping and testing.</p>
+      </section>
         <section class="solution">
+          <div class="text-right">
           <h3 class="locket-h3">Solution</h3>
             <p class="locket-p">When asked about the biggest barriers to accomplishing personal goals, people routinely cite the overwhelming, round-the-clock demands of work.  Everyone needs a way to completely detach from their
               workday in order to focus on personal projects.  Making personal work public too early in the creative process, as with social sharing, appears to have a
               detrimental effect as well.  It can be easy to internalize the criticisms of others, allow self-doubt to build, and abandon projects early and often.
               Locket solves these problems by operating independently of all other calendars, and by the absence of social sharing functionality.  When the app is in use,
               the user has no choice but to focus on themselves.  All other platforms are locked, and associated notifications are delayed during project hours.  </p>
+              </div>
         </section>
       </div>
       </section>
@@ -109,47 +119,57 @@
             <div class="container">
               <div class="text">
             <h3>User Research</h3>
-              <p class="user-research-p1">Early surveys revealed that the demographic most likely to be interested in this product is between 18 and 45 years
-                of age, and without children at home.  Many are students or active professionals who are passionate about, and make
-                sure to find time for, their hobbies.  A balance would need to be found between a typical cloud storage platform,
-                which can remind users of boring software at work, and the hi-gloss and often pandering commercialism of some of the
-                larger streaming services.</p>
+              <p class="user-research-p1">Almost everyone who participated in my survey wishes they had more time for personal creative projects.  Respondents are working on things like:</p>
             </div>
             <div class="text-right">
-              <p class="user-research-p2">When asked what their current platform lacks, respondents to the survey admitted that they would like a design to
-                look nicer or work better.  However, they didn’t necessarily have ideas or specific complaints.  It might be a situation
-                of having no frame of reference, as most are using Google Drive because it’s free and they have little to compare it to,
-                favorably or otherwise.</p>
+            <blockquote class="locket-research-blockquote">
+              <ul>
+               <li>UX Design Projects</li>
+               <li>Case Studies</li>
+               <li>Fine Art</li>
+               <li>Visual Design Work</li>
+               <li>Illustrations</li>
+               <li>Photography.</li>
+              </ul>
+             </blockquote>
+           </div>
+            <div class="text">
+              <p class="user-research-p2">When asked about the biggest obstacle they face, the vast majority of those surveyed cited their job.
+                To a lesser degree, a lack of funds, general lack of free time and family obligations were also barriers to getting things done.</p>
+                <p class="user-research-p3">Interestingly, many respondents also cited a lack of motivation and frustration with their own skill level
+                  as roadblocks to achieving their goals.  Very few considered social media to be the root of the problem.  However, more than 90% of
+                  respondents felt they could benefit from an app that delayed notifications – or locked their phone completely (aside from emergency calls) –
+                  during their scheduled project hours.</p>
           </div>
-          <div class="text">
-                <p class="user-research-p3">In terms of finding general barriers to cloud storage use, a significant - if not overwhelming -
-                portion of respondents cited security concerns, or fear of losing access to their files.  I decided to build in a security
-                feature, called “Collaborators,” which enables users to set privileges when sharing files, to help mitigate this concern.</p>
+          <div class="text-right">
+                  <p class="user-research-p4">Additionally, the vast majority of respondents did not care to have their achievements featured in a blog post,
+                    or posted on an online forum.  They also would rather not waste time reading related articles.  This suggests that most people would prefer
+                    to work on creative projects anonymously and independently – safe from unwanted criticism and other outside influences. </p>
           </div>
         </div>
         <div class="container">
           <div class="button-box">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsw29UrWyTSa5l_HvsFd-adolClXOjDR6z3nCS33qp8YPNtQ/viewform?usp=sf_link" class="button" target="_blank">View Survey</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSek69qQ-X7DjirsvSKpH_0MRp16Xl6v1g2X3vkVOVqg3TTxUQ/viewform?usp=sf_link" class="button-locket" target="_blank">View Survey</a>
         </div>
         </div>
               </section>
               <section class="research-stats">
               <div class="research-stats-box">
-              <figure class="research-stat1">
-                <h2 class="research-percent">66%</h2>
-                <figcaption class="research-figcaption">interested in a cloud storage app specializing in audio, but not another streaming service</figcaption>
+              <figure class="research-stat1-locket">
+                <h2 class="research-percent-locket">62%</h2>
+                <figcaption class="research-figcaption-locket">felt a calendar view would be the best possible motivating feature</figcaption>
               </figure>
             </div>
             <div class="research-stats-box">
-              <figure class="research-stat2">
-                <h2 class="research-percent">86%</h2>
-                <figcaption class="research-figcaption">wanted a way to store downloads, primarily mp3 files</figcaption>
+              <figure class="research-stat2-locket">
+                <h2 class="research-percent-locket">77%</h2>
+                <figcaption class="research-figcaption-locket">of potential users are female, the majority under 30 and single</figcaption>
               </figure>
             </div>
             <div class="research-stats-box">
-              <figure class="research-stat3">
-                <h2 class="research-percent">25%</h2>
-                <figcaption class="research-figcaption">excited about a collaborative sharing platform for home recodings, podcasts and scores</figcaption>
+              <figure class="research-stat3-locket">
+                <h2 class="research-percent-locket">72%</h2>
+                <figcaption class="research-figcaption-locket">could benefit from an app that delayed notifications – or locked their phone completely</figcaption>
               </figure>
             </div>
             </section>
@@ -157,20 +177,42 @@
             <div class="container">
             <div class="text">
              <h3>Competitive Analysis</h3>
-              <p>For our project, we decided to focus on appealing visuals in a way done successfully by Pinterest.
-               We also were inspired by the clean, uncluttered functionality of Box’s dashboard and the unique organizing features of Evernote.
-               We hoped to avoid the heavily curated content and ads of Pinterest, the somewhat boring though functional look of Box,
-               and what might be perceived as the features overload of Evernote.</p>
+              <p>Google is ubiquitous.  It’s where everyone goes to do just about anything, and all products are fully integrated into a collection of
+                free tools with widespread appeal.  Google provides free services in exchange for user data.  The more free services they provide, the
+                more information can be gathered on the habits and preferences of individual users.  This information can then be used to funnel targeted
+                ads or other content to users.  The end result is a personalized experience across platforms such as YouTube, Gmail and Google Maps.
+                Some users may find the endless data collection invasive, or the targeted content distracting - especially when trying to make time for personal goals. </p>
+                </div>
+              <div class="text-right">
+              <p>Apple products are also everywhere you look, even though they are angled slightly toward the luxury market when compared to most Android or
+                Google products.  Calendar, Reminders and Notes come preloaded with Apple devices, and are fully integrated with other applications by Apple.
+                Again, these are essentially a collection of free tools with widespread appeal.  Everything you’ve ever scheduled, noted, or listed is stored
+                somewhere for safe-keeping.  If you are interested in extra features, such as sketching, color coding, importing images etc., they already exist
+                and only await your discovery.</p>
+              </div>
+              <div class="text">
+              <p>Trello is a project management platform, owned by Atlassian.  It is really aimed at team projects.  However, there is an interesting option available
+                to create personal project tracking cards on boards, called “Life Goals.”  These boards allow you to pick a custom background image from Unsplash,
+                sort of like a hero image for your projects.  These boards are separate from your shared, professional boards, and can be marked private.  Trello is
+                taking the functionality of the Apple and Google products and allowing users to arrange things their own way, on art boards that are visually appealing
+                and fun.  This in itself may be enough to make a user feel like they are in a non-work, customized creative space  Just the simple act of setting up
+                the board may spark other creative ideas, help a user understand how they feel about their projects, or allow them to visualize the end result of their
+                hard work.</p>
+              </div>
+              <div class="text-right">
+              <p>If a product can carve out a space away from anything work-related, which also minimizes or eliminates distractions, it might be useful.  The lower
+                it is in cost, the more likely users will adapt to it.  A combination of functionality, privacy and style might encourage users to pay $5 per month.
+                The UI should feel experimental and fun, and be the kind of space that encourages creativity.</p>
            </div>
+         <div class="button-box">
+         <a href="https://docs.google.com/document/d/1BBlkjfMDDiNmS_iqxr5bk-8b_hlhHb5uVZygXRYdi_w/edit?usp=sharing" class="button-locket" target="_blank">View Analysis</a>
+       </div>
            <div class="center-image">
                <ul class="competitor-icons">
-                 <li><img src="images/badgeRGB-244px.png" class="pinterest-icon" alt="Pinterest"></li>
-                 <li><img src="images/box_blue.png" class="box-icon" alt="Box"></li>
-                 <li><img src="images/evernote-logo.png" class="evernote-icon" alt="Evernote"></li>
+                 <li><img src="images/google_logo.png" class="google-icon" alt="Google"></li>
+                 <li><img src="images/apple_logo.png" class="apple-icon" alt="Apple"></li>
+                 <li><img src="images/trello_logo.png" class="trello-icon" alt="Trello"></li>
                </ul>
-            </div>
-            <div class="button-box">
-            <a href="https://docs.google.com/document/d/1-c7bFSGmNZrM_As46ng2uZT89h3t_zQrecSQ1cVyLZY/edit?usp=sharing" class="button" target="_blank">View Analysis</a>
           </div>
           </div>
             </section>

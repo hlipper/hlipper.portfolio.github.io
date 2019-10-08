@@ -137,7 +137,8 @@ a {
 }
 
 .locket-pic {
-  width: 28.8rem;
+  padding-top: 8rem;
+  width: 28rem;
 }
 
 .winder-pic-testing {
@@ -416,6 +417,13 @@ p {
   letter-spacing: 0.02rem;
   line-height: 150%;
   padding-bottom: 2rem;
+}
+
+
+.locket-research-blockquote ul {
+  list-style-type: square;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 /*Contact Form*/
@@ -938,7 +946,6 @@ figcaption {
 }
 
 .locket-desktop-landing-page-pic {
-  padding-top: 6rem;
   width: 100%;
 }
 
@@ -1032,6 +1039,59 @@ figcaption {
   padding: 2rem;
 }
 
+.research-stat1-locket {
+  background-color: #AFD0ED;
+  border-radius: 5px;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.research-stat2-locket {
+  background-color: #AFD0ED;
+  border-radius: 5px;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.research-stat3-locket {
+  background-color: #AFD0ED;
+  border-radius: 5px;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.research-percent-locket {
+  align-self: baseline;
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 5.4rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  margin-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.research-figcaption-locket  {
+  color: #000000;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  padding: 2rem;
+}
+
+
 .competitive-analysis .container {
  padding-bottom: 2rem;
  padding-top: 2rem;
@@ -1055,6 +1115,25 @@ figcaption {
 }
 
 .evernote-icon {
+  height: 6.4rem;
+  padding: 2rem;
+  width: 6.4rem;
+}
+
+
+.google-icon {
+  height: 6rem;
+  padding: 2rem;
+  width: 6rem;
+}
+
+.apple-icon {
+  height: 6rem;
+  padding: 2rem;
+  width: 6rem;
+}
+
+.trello-icon {
   height: 6.4rem;
   padding: 2rem;
   width: 6.4rem;
@@ -1099,6 +1178,26 @@ figcaption {
 .content-strategy-quotes li {
   align-items: center;
   color: #FE5D5D;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 120%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+
+}
+
+.locket-research-blockquote ul {
+  list-style-type: square;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.locket-research-blockquote li {
+  align-items: center;
+  color: #50A9F6;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-style: normal;
@@ -1276,7 +1375,8 @@ figcaption {
   }
 
   .locket-pic {
-    width: 34rem;
+    padding-top: 8rem;
+    width: 70rem;
   }
 
 .research-stats-box {
@@ -1334,6 +1434,65 @@ figcaption {
 
 .research-figcaption {
   color: #272728;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.research-stat1-locket {
+  background-color: #AFD0ED;
+  border-radius: 5px;
+  display: block;
+  height: 28rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.research-stat2-locket {
+  background-color: #AFD0ED;
+  border-radius: 5px;
+  display: block;
+  height: 28rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.research-stat3-locket {
+  background-color: #AFD0ED;
+  border-radius: 5px;
+  display: block;
+  height: 28rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.research-percent-locket {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 5.4rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 150%;
+  margin-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.research-figcaption-locket {
+  color: #000000;
   font-family: "Poppins",sans-serif;
   font-size: 1.6rem;
   font-style: normal;
