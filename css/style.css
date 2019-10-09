@@ -824,10 +824,44 @@ footer {
 
 .problem-solution-locket h3 {
     color: #000000;
+    letter-spacing: 0.02rem;
 }
 
 .problem-solution-locket p {
     color: #000000;
+    letter-spacing: 0.02rem;
+}
+
+.user-flows-locket {
+  background-color: #AFD0ED;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.user-flows-locket h3 {
+    color: #000000;
+    letter-spacing: 0.02rem;
+}
+
+.user-flows-locket p {
+    color: #000000;
+    letter-spacing: 0.02rem;
+}
+
+.competitive-analysis-locket {
+  background-color: #AFD0ED;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.competitive-analysis-locket h3 {
+    color: #000000;
+    letter-spacing: 0.02rem;
+}
+
+.competitive-analysis-locket p {
+    color: #000000;
+    letter-spacing: 0.02rem;
 }
 
 .summary h1 {
@@ -1836,6 +1870,13 @@ figcaption {
   }
 
   .competitive-analysis .container {
+   display: grid;
+   grid-column-gap: 10rem;
+   grid-row-gap: 4rem;
+   grid-template-columns: 1fr 1fr;
+  }
+
+  .competitive-analysis-locket .container {
    display: grid;
    grid-column-gap: 10rem;
    grid-row-gap: 4rem;
