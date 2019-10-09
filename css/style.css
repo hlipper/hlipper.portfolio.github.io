@@ -1212,12 +1212,6 @@ figcaption {
 
 }
 
-.locket-research-blockquote ul {
-  list-style-type: square;
-  padding-bottom: 2rem;
-  padding-top: 10rem;
-}
-
 .locket-research-blockquote li {
   align-items: center;
   color: #50A9F6;
@@ -1350,6 +1344,7 @@ figcaption {
  padding-bottom: 2rem;
 }
 
+
 /*for iPad, iPad pro and Desktop*/
 
 
@@ -1473,6 +1468,11 @@ figcaption {
   padding-right: 1rem;
 }
 
+.locket-research-blockquote ul {
+  list-style-type: square;
+  padding-bottom: 2rem;
+  padding-top: 10rem;
+}
 
 .research-stat1-locket {
   background-color: #AFD0ED;
