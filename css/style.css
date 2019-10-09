@@ -7,8 +7,7 @@ html {
 
 .container {
   align-items: center;
-  margin-left: 1.6rem;
-  margin-right: 1.6rem;
+  margin: auto;
   max-width: 1200px;
 }
 
@@ -45,9 +44,9 @@ nav {
   align-items: center;
   color: #272728;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  padding: 1rem;
+  padding: .5rem;
   text-align: center;
   text-decoration: none;
 }
@@ -137,7 +136,7 @@ a {
 }
 
 .locket-pic {
-  padding-top: 8rem;
+  padding-top: 2rem;
   width: 28rem;
 }
 
@@ -851,7 +850,7 @@ footer {
   font-weight: 700;
   line-height: 120%;
   padding-bottom: 2rem;
-  margin-top: 2rem;
+  padding-top: 6rem;
 }
 
 .locket-h3 {
@@ -1170,6 +1169,30 @@ figcaption {
   margin-top: 2rem;
 }
 
+.user-stories-locket .container {
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+
+.user-stories-locket .container ul {
+  list-style-type: square;
+}
+
+.user-stories-locket .container li {
+  align-items: center;
+  color: #50A9F6;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 120%;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+
 .content-strategy ul {
   list-style-type: square;
   padding-bottom: 2rem;
@@ -1332,6 +1355,11 @@ figcaption {
 
 @media only screen and (min-width: 768px) {
 
+
+  .mindmap {
+    width: 120rem;
+  }
+
 /*contact form*/
 
 .button-box {
@@ -1376,7 +1404,7 @@ figcaption {
 
   .locket-pic {
     padding-top: 8rem;
-    width: 70rem;
+    width: 30rem;
   }
 
 .research-stats-box {
@@ -1574,6 +1602,7 @@ figcaption {
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
  padding-bottom: 2rem;
+ padding-top: 6rem;
 }
 
 .problem-solution-locket .container {
@@ -1631,6 +1660,13 @@ figcaption {
 }
 
 .user-stories .container {
+ display: grid;
+ grid-column-gap: 10rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+}
+
+.user-stories-locket .container {
  display: grid;
  grid-column-gap: 10rem;
  grid-row-gap: 2rem;
@@ -1727,6 +1763,10 @@ figcaption {
 .sitemap p {
   max-width: 50rem;
   padding-bottom: 2rem;
+}
+
+.hero {
+  margin-top: 15rem;
 }
 
   .hero h1 {
