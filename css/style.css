@@ -1384,6 +1384,25 @@ figcaption {
 
 @media only screen and (min-width: 768px) {
 
+.three-CTA {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+
+}
+
+.sketches-links ul {
+  display: flex;
+  justify-content: center;
+  justify: center;
+
+}
+
+.branding-links ul {
+  display: flex;
+  justify-content: center;
+  justify: center;
+}
 
   .mindmap {
     width: 100%;
@@ -1393,8 +1412,9 @@ figcaption {
 /*contact form*/
 
 .button-box {
-  display: block;
+  display: inline-block;
   padding-top: 2rem;
+  margin: 2rem;
 }
 
 
