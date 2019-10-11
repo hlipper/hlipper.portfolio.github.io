@@ -9,6 +9,7 @@ html {
   align-items: center;
   margin: auto;
   max-width: 1200px;
+  padding: 2rem;
 }
 
 .container h3 {
