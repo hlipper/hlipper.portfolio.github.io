@@ -789,6 +789,13 @@ footer {
   width: 2.4rem;
 }
 
+.resume-icon {
+  border: 0;
+  height: 2.4rem;
+  padding-left: 6rem;
+  width: 2.4rem;
+}
+
 .linkedin-icon {
   border: 0;
   height: 2.4rem;
