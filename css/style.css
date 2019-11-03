@@ -246,10 +246,11 @@ h3 {
 }
 
 .left-image {
-  text-align: left;
-  padding: 2rem;
+  text-align: center;
   vertical-align: top;
 }
+
+
 
 .text {
   max-width: 60rem;
@@ -1000,6 +1001,7 @@ figcaption {
 
 .mindmap {
   border-radius: 5px;
+  text-align: center;
   width: 30rem;
 }
 
@@ -1400,6 +1402,14 @@ figcaption {
 
 @media only screen and (min-width: 768px) {
 
+  .left-image {
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    padding: 2rem;
+  }
+
+
 .three-CTA {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -1423,7 +1433,7 @@ figcaption {
   .mindmap {
     border-radius: 5px;
     padding-bottom: 4rem;
-    width: 80rem;
+    width: 100%;
   }
 
 /*contact form*/
