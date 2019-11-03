@@ -880,7 +880,7 @@ footer {
   font-weight: 700;
   line-height: 120%;
   padding-bottom: 2rem;
-  margin-top: 2rem;
+  padding-top: 4rem;
 }
 
 
@@ -913,6 +913,7 @@ footer {
 }
 
 .user-research .container {
+ background-color: hsla(0, 99%, 68%, .05);
  padding-bottom: 2rem;
 }
 
@@ -992,7 +993,8 @@ figcaption {
 
 
 .mindmap {
-  width: 100%;
+  border-radius: 5px;
+  width: 30rem;
 }
 
  h2 {
@@ -1413,7 +1415,8 @@ figcaption {
 }
 
   .mindmap {
-    width: 100%;
+    border-radius: 5px;
+    width: 80%;
     max-width: 120rem;
   }
 
