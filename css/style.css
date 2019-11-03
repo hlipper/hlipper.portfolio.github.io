@@ -63,7 +63,7 @@ nav {
 /*hero*/
 
 .hero {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .hero-bold {
@@ -78,7 +78,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   z-index: 2;
 }
 
@@ -103,7 +103,7 @@ nav {
   font-weight: 600;
   height: 1rem;
   letter-spacing: 0.02rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-align: center;
   width: 100%;
 }
@@ -1829,7 +1829,7 @@ figcaption {
 }
 
 .hero {
-  margin-top: 15rem;
+  margin-top: 6rem;
 }
 
   .hero h1 {
