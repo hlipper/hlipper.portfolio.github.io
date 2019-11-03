@@ -245,6 +245,12 @@ h3 {
   vertical-align: top;
 }
 
+.left-image {
+  text-align: left;
+  padding: 2rem;
+  vertical-align: top;
+}
+
 .text {
   max-width: 60rem;
 }
@@ -1416,8 +1422,8 @@ figcaption {
 
   .mindmap {
     border-radius: 5px;
-    width: 80%;
-    max-width: 120rem;
+    padding-bottom: 4rem;
+    width: 80rem;
   }
 
 /*contact form*/
