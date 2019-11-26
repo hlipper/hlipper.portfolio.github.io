@@ -176,6 +176,10 @@ h3 {
   padding-bottom: 1rem;
 }
 
+.my-photo {
+  width: 28rem;
+}
+
 .project-winder {
   background-color: hsla(0, 99%, 68%, .05);
   padding-bottom: 2rem;
@@ -1934,6 +1938,10 @@ figcaption {
     grid-column-gap: 10rem;
     grid-row-gap: 2rem;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .my-photo {
+    width: 100%;
   }
 
   .competitive-analysis .container {
