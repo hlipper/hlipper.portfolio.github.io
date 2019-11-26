@@ -89,23 +89,8 @@ nav {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02rem;
-  line-height: 130%;
-  margin-bottom: 1rem;
+  line-height: 120%;
   margin-top: 2rem;
-}
-
-.see-more h4 {
-  align-self: center;
-  color: #272728;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 600;
-  height: 1rem;
-  letter-spacing: 0.02rem;
-  padding-top: 1rem;
-  text-align: center;
-  width: 100%;
 }
 
 a {
@@ -114,8 +99,8 @@ a {
 }
 
 @keyframes bounce {
-  from {height: 6rem; padding-bottom: 4rem;}
-  to {height: 8rem; padding-bottom: 2rem;}
+  from {height: 6rem; padding-bottom: 2rem;}
+  to {height: 8rem; padding-bottom: 0rem;}
 }
 
 .see-more .arrow {
@@ -879,6 +864,11 @@ footer {
     letter-spacing: 0.02rem;
 }
 
+.personas-locket p {
+    color: #ffffff;
+    letter-spacing: 0.02rem;
+}
+
 .summary h1 {
   color: #FE5D5D;
   font-family: "Poppins", sans-serif;
@@ -961,8 +951,41 @@ footer {
   padding-bottom: 2rem;
 }
 
+
+.personas-locket {
+  background-color: #272728;
+  padding-bottom: 2rem;
+}
+
+.persona-header-locket {
+  color: #50A9F6;
+  font-size: 3.6rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.personas-locket h3 {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.personas-locket h4 {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding-bottom: 2rem;
+}
+
 figcaption {
-  color: #272728;
+  color: #ffffff;
   font-family: "Poppins",sans-serif;
   font-size: 1.2rem;
   font-style: italic;
@@ -1860,9 +1883,6 @@ figcaption {
     max-width: 123rem;
   }
 
- .see-more h4 {
-    font-size: 2.4rem;
-    }
 
   .persona-image1 {
     justify-content: center;
