@@ -817,7 +817,6 @@ footer {
 .summary-locket {
   background-color: #272728;
   padding-bottom: 2rem;
-  padding-top: 2rem;
 }
 
 .problem-solution-locket {
@@ -893,7 +892,7 @@ footer {
   font-weight: 700;
   line-height: 120%;
   padding-bottom: 2rem;
-  padding-top: 6rem;
+  padding-top: 2rem;
 }
 
 .locket-h3 {
@@ -1198,23 +1197,22 @@ figcaption {
   width: 6.4rem;
 }
 
-
 .google-icon {
-  height: 6rem;
+  height: 6.4rem;
   padding: 2rem;
-  width: 6rem;
+  width: 6.4rem;
 }
 
 .apple-icon {
-  height: 6rem;
+  height: 6.4rem;
   padding: 2rem;
-  width: 6rem;
+  width: 5.4rem;
 }
 
 .trello-icon {
   height: 6.4rem;
   padding: 2rem;
-  width: 6.4rem;
+  width: 6rem;
 }
 
 .persona-image1 {
@@ -1467,8 +1465,8 @@ figcaption {
 
 .button-box {
   display: inline-block;
+  padding-bottom: 2rem;
   padding-top: 2rem;
-  margin: 2rem;
 }
 
 
@@ -1477,10 +1475,12 @@ figcaption {
   justify-content: center;
 }
 
-.summary-locket .button-box {
-  display: flex;
-  justify-content: center;
+
+.sketches-links .button-box {
+  display: inline-block;
+  margin: 2rem;
 }
+
 
 .contact {
   display: block;
@@ -1711,7 +1711,7 @@ figcaption {
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
  padding-bottom: 2rem;
- padding-top: 6rem;
+ padding-top: 2rem;
 }
 
 .problem-solution-locket .container {
