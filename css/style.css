@@ -245,6 +245,12 @@ h3 {
   max-width: 60rem;
 }
 
+.text-right {
+  max-width: 60rem;
+}
+
+
+
 
 
 /*buttons*/
@@ -419,7 +425,12 @@ p {
 .locket-research-blockquote ul {
   list-style-type: square;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+}
+
+.locket-personas-blockquote ul {
+  list-style-type: square;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 /*Contact Form*/
@@ -909,7 +920,6 @@ footer {
 .locket-p {
   color: #ffffff;
   max-width: 55rem;
-  padding-bottom: 1rem;
 }
 
 .user-research .container {
@@ -960,19 +970,24 @@ footer {
   padding-bottom: 2rem;
 }
 
+.pipes {
+    color: #AFD0ED;
+    font-weight: bold;
+}
+
 .persona-header-locket {
   color: #50A9F6;
-  font-size: 3.6rem;
+  font-size: 4.8rem;
   font-weight: bold;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
 
 .personas-locket h3 {
-  color: #ffffff;
+  color: #AFD0ED;
   font-family: "Poppins",sans-serif;
-  font-size: 2.4rem;
-  font-style: normal;
+  font-size: 3.6rem;
+  font-style: bold;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -995,6 +1010,7 @@ figcaption {
   font-weight: 500;
   letter-spacing: 0.02em;
   padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .user-flows {
@@ -1217,10 +1233,12 @@ figcaption {
 
 .persona-image1 {
   width: 30rem;
+  padding-top: 2rem;
 }
 
 .persona-image2 {
   width: 30rem;
+  padding-top: 2rem;
 }
 
 .user-stories .container {
@@ -1284,9 +1302,7 @@ figcaption {
   font-weight: bold;
   letter-spacing: 0.02rem;
   line-height: 120%;
-  margin-left: 2rem;
-  margin-top: 2rem;
-
+  padding-top: 2rem;
 }
 
 .locket-research-blockquote li {
@@ -1298,9 +1314,19 @@ figcaption {
   font-weight: bold;
   letter-spacing: 0.02rem;
   line-height: 120%;
-  margin-left: 2rem;
-  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
 
+.locket-personas-blockquote li {
+  align-items: center;
+  color: #AFD0ED;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 120%;
+  padding-top: 5rem;
 }
 
 .personas ul {
@@ -1425,6 +1451,7 @@ figcaption {
 /*for iPad, iPad pro and Desktop*/
 
 
+
 @media only screen and (min-width: 768px) {
 
   .left-image {
@@ -1434,6 +1461,10 @@ figcaption {
     padding: 2rem;
   }
 
+  .text-right {
+    max-width: 60rem;
+    padding-top: 2rem;
+  }
 
 .three-CTA {
   grid-column-start: 1;
@@ -1461,7 +1492,17 @@ figcaption {
     width: 100%;
   }
 
-/*contact form*/
+  .persona-image1 {
+    width: 50rem;
+    padding-top: 10rem;
+  }
+
+  .persona-image2 {
+    width: 50rem;
+    padding-top: 10rem;
+  }
+
+
 
 .button-box {
   display: inline-block;
@@ -1481,6 +1522,8 @@ figcaption {
   display: inline-block;
   margin: 2rem;
 }
+
+/*contact form*/
 
 
 .contact {
@@ -1580,14 +1623,20 @@ figcaption {
 .locket-research-blockquote ul {
   list-style-type: square;
   padding-bottom: 2rem;
-  padding-top: 10rem;
+  padding-left: 2rem;
+}
+
+.locket-personas-blockquote ul {
+  list-style-type: square;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 .research-stat1-locket {
   background-color: #AFD0ED;
   border-radius: 5px;
   display: block;
-  height: 28rem;
+  height: 24rem;
   justify-content: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -1598,7 +1647,7 @@ figcaption {
   background-color: #AFD0ED;
   border-radius: 5px;
   display: block;
-  height: 28rem;
+  height: 24rem;
   justify-content: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -1609,7 +1658,7 @@ figcaption {
   background-color: #AFD0ED;
   border-radius: 5px;
   display: block;
-  height: 28rem;
+  height: 24rem;
   justify-content: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -1623,7 +1672,6 @@ figcaption {
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.02rem;
-  line-height: 150%;
   margin-top: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1769,6 +1817,33 @@ figcaption {
  grid-template-columns: 1fr 1fr;
 }
 
+.persona-lisa {
+ display: grid;
+ grid-column-gap: 10rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+ padding-bottom: 2rem;
+ padding-top: 2rem;
+}
+
+.persona-cory {
+ display: grid;
+ grid-column-gap: 10rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+ padding-bottom: 2rem;
+ padding-top: 2rem;
+}
+
+.persona-jill {
+ display: grid;
+ grid-column-gap: 10rem;
+ grid-row-gap: 2rem;
+ grid-template-columns: 1fr 1fr;
+ padding-bottom: 2rem;
+ padding-top: 2rem;
+}
+
 .user-stories .container {
  display: grid;
  grid-column-gap: 10rem;
@@ -1776,12 +1851,6 @@ figcaption {
  grid-template-columns: 1fr 1fr;
 }
 
-.user-stories-locket .container {
- display: grid;
- grid-column-gap: 10rem;
- grid-row-gap: 2rem;
- grid-template-columns: 1fr 1fr;
-}
 
 .content-strategy .container {
  display: grid;
@@ -1889,19 +1958,10 @@ figcaption {
   }
 
 
-  .persona-image1 {
-    justify-content: center;
-    padding-bottom: 2rem;
-    padding-top: 14rem;
-    width: 30rem;
+  .personas-locket blockquote {
+    padding-left: 2rem;
   }
 
-  .persona-image2 {
-    justify-content: center;
-    padding-bottom: 2rem;
-    padding-top: 14rem;
-    width: 30rem;
-  }
 
   .content-strategy {
     margin-bottom: 2rem;
@@ -1910,6 +1970,8 @@ figcaption {
   .content-strategy blockquote {
     padding-left: 2rem;
   }
+
+
 
   /*desktop grid stuff*/
 
@@ -1955,7 +2017,7 @@ figcaption {
   .competitive-analysis-locket .container {
    display: grid;
    grid-column-gap: 10rem;
-   grid-row-gap: 4rem;
+   grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
   }
 
