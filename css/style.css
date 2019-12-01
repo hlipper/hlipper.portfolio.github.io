@@ -883,6 +883,11 @@ footer {
     letter-spacing: 0.02rem;
 }
 
+.sketches-wireframes-locket p {
+    color: #ffffff;
+    letter-spacing: 0.02rem;
+}
+
 .summary h1 {
   color: #FE5D5D;
   font-family: "Poppins", sans-serif;
@@ -970,6 +975,13 @@ footer {
   padding-bottom: 2rem;
 }
 
+
+.sketches-wireframes-locket {
+  background-color: #272728;
+  padding-bottom: 2rem;
+}
+
+
 .pipes {
     color: #AFD0ED;
     font-weight: bold;
@@ -1011,6 +1023,44 @@ figcaption {
   letter-spacing: 0.02em;
   padding-bottom: 2rem;
   padding-top: 1rem;
+}
+
+
+.sketches-wireframes-locket {
+  color: #50A9F6;
+  font-size: 4.8rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.sketches-wireframes-locket h3 {
+  color: #AFD0ED;
+  font-family: "Poppins",sans-serif;
+  font-size: 3.6rem;
+  font-style: bold;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.sketches-wireframes-locket h4 {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding-bottom: 2rem;
+}
+
+.sketches-wireframes-locket p {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding-bottom: 2rem;
 }
 
 .user-flows {
@@ -1477,7 +1527,25 @@ figcaption {
   display: flex;
   justify-content: center;
   justify: center;
+}
 
+.locket-sketchbox {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify: center;
+}
+
+.locket-sketchbox .sketches-wireframes1 {
+  border-radius: 40px;
+  height: 48rem;
+  padding: 2rem;
+}
+
+.locket-sketchbox .sketches-wireframes2 {
+  border-radius: 10px;
+  width: 20rem;
+  padding: 2rem;
 }
 
 .branding-links ul {
@@ -1493,12 +1561,12 @@ figcaption {
   }
 
   .persona-image1 {
-    width: 50rem;
+    width: 40rem;
     padding-top: 10rem;
   }
 
   .persona-image2 {
-    width: 50rem;
+    width: 54rem;
     padding-top: 10rem;
   }
 
@@ -1817,9 +1885,11 @@ figcaption {
  grid-template-columns: 1fr 1fr;
 }
 
+
+
 .persona-lisa {
  display: grid;
- grid-column-gap: 10rem;
+ grid-column-gap: 4rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
  padding-bottom: 2rem;
@@ -1828,7 +1898,7 @@ figcaption {
 
 .persona-cory {
  display: grid;
- grid-column-gap: 10rem;
+ grid-column-gap: 4rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
  padding-bottom: 2rem;
@@ -1837,7 +1907,7 @@ figcaption {
 
 .persona-jill {
  display: grid;
- grid-column-gap: 10rem;
+ grid-column-gap: 4rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
  padding-bottom: 2rem;
