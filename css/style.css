@@ -739,6 +739,76 @@ textarea {
   width: 6rem;
 }
 
+.locket-palette1 {
+  background-color: #ECF3BB;
+  border-radius: 5px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.locket-palette2 {
+  background-color: #000000;
+  border-radius: 5px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.locket-palette3 {
+  background-color: #8DDFF6;
+  border-radius: 5px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.locket-palette4 {
+  background-color: #2A323C;
+  border-radius: 5px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.locket-palette5 {
+  background-color: #E7D1D7;
+  border-radius: 5px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.locket-palette6 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000;
+  border-radius: 5px;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+
 
 .palette-text1 {
   color: #272728;
@@ -999,7 +1069,6 @@ footer {
   color: #AFD0ED;
   font-family: "Poppins",sans-serif;
   font-size: 3.6rem;
-  font-style: bold;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -1038,7 +1107,6 @@ figcaption {
   color: #AFD0ED;
   font-family: "Poppins",sans-serif;
   font-size: 3.6rem;
-  font-style: bold;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -1093,8 +1161,8 @@ figcaption {
 
 .mindmap {
   border-radius: 5px;
-  text-align: center;
-  width: 30rem;
+  padding: 2rem;
+  width: 28rem;
 }
 
  h2 {
@@ -1282,12 +1350,12 @@ figcaption {
 }
 
 .persona-image1 {
-  width: 30rem;
+  width: 28rem;
   padding-top: 2rem;
 }
 
 .persona-image2 {
-  width: 30rem;
+  width: 28rem;
   padding-top: 2rem;
 }
 
@@ -1423,8 +1491,7 @@ figcaption {
   justify-content: center;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+  margin: 2rem;
   text-decoration: none;
   width: 30rem;
 }
@@ -1526,14 +1593,12 @@ figcaption {
 .sketches-links ul {
   display: flex;
   justify-content: center;
-  justify: center;
 }
 
 .locket-sketchbox {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify: center;
 }
 
 .locket-sketchbox .sketches-wireframes1 {
@@ -1551,12 +1616,16 @@ figcaption {
 .branding-links ul {
   display: flex;
   justify-content: center;
-  justify: center;
+}
+
+.branding-links li {
+  padding: 2rem;
 }
 
   .mindmap {
     border-radius: 5px;
-    padding-bottom: 4rem;
+    padding: 4rem;
+    max-width: 80rem;
     width: 100%;
   }
 
