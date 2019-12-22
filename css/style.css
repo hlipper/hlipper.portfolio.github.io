@@ -14,7 +14,12 @@ html {
 
 .container h3 {
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+}
+
+.container p {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 /*tab bar nav*/
@@ -78,7 +83,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  margin-top: 1rem;
+  margin-top: 2rem;
   z-index: 2;
 }
 
@@ -100,7 +105,7 @@ a {
 
 @keyframes bounce {
   from {height: 6rem; padding-bottom: 2rem;}
-  to {height: 8rem; padding-bottom: 0rem;}
+  to {height: 8rem; padding-bottom: 2rem;}
 }
 
 .see-more .arrow {
@@ -173,7 +178,7 @@ h3 {
 
 .bio p {
   max-width: 55rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .my-photo {
@@ -967,7 +972,7 @@ footer {
   font-weight: 700;
   line-height: 120%;
   padding-bottom: 2rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 
