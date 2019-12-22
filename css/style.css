@@ -19,7 +19,6 @@ html {
 
 .container p {
   padding-bottom: 2rem;
-  padding-top: 1rem;
 }
 
 /*tab bar nav*/
@@ -68,7 +67,7 @@ nav {
 /*hero*/
 
 .hero {
-  margin-top: 6rem;
+  padding-top: 6rem;
 }
 
 .hero-bold {
@@ -83,7 +82,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  margin-top: 2rem;
+  padding-top: 2rem;
   z-index: 2;
 }
 
@@ -154,8 +153,8 @@ h3 {
 }
 
 .bio {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .bio h2 {
@@ -908,8 +907,6 @@ footer {
 
 .problem-solution-locket {
   background-color: #AFD0ED;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
 }
 
 .problem-solution-locket h3 {
@@ -1074,7 +1071,7 @@ footer {
 .personas-locket h3 {
   color: #AFD0ED;
   font-family: "Poppins",sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   padding-bottom: 1rem;
@@ -1113,7 +1110,7 @@ figcaption {
 .sketches-wireframes-locket h3 {
   color: #AFD0ED;
   font-family: "Poppins",sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: 0.02em;
 }
@@ -1176,7 +1173,7 @@ figcaption {
   color: #272728;
   display: flex;
   font-family: "Poppins",sans-serif;
-  font-size: 2.4rem;
+  font-size: 3.6rem;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -1450,12 +1447,11 @@ figcaption {
   font-weight: bold;
   letter-spacing: 0.02rem;
   line-height: 120%;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .personas ul {
   list-style-type: square;
-  padding-bottom: 2rem;
 }
 
 .personas li {
@@ -1630,11 +1626,6 @@ figcaption {
   justify-content: center;
   text-align: center;
 }
-
-  .mindmap {
-    border-radius: 5px;
-    width: 100%;
-  }
 
   .persona-image1 {
     width: 40rem;
@@ -1870,7 +1861,6 @@ figcaption {
  grid-column-gap: 2rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
 }
 
 .problem-solution .container {
@@ -1878,8 +1868,6 @@ figcaption {
  grid-column-gap: 10rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
- padding-top: 2rem;
 }
 
 .user-research .container {
@@ -1887,7 +1875,6 @@ figcaption {
  grid-column-gap: 10rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
 }
 
 .hi-fi-mockups-prototypes .container {
@@ -1912,8 +1899,6 @@ figcaption {
  grid-column-gap: 10rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
- padding-top: 2rem;
 }
 
 .user-research-locket .container {
@@ -1968,8 +1953,6 @@ figcaption {
  grid-column-gap: 4rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
- padding-top: 2rem;
 }
 
 .persona-cory {
@@ -1977,8 +1960,6 @@ figcaption {
  grid-column-gap: 4rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
- padding-top: 2rem;
 }
 
 .persona-jill {
@@ -1986,8 +1967,6 @@ figcaption {
  grid-column-gap: 4rem;
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
- padding-bottom: 2rem;
- padding-top: 2rem;
 }
 
 .user-stories .container {
