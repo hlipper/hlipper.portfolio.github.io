@@ -2095,6 +2095,10 @@ figcaption {
     padding-left: 2rem;
   }
 
+.personas-locket h3 {
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
 
   .content-strategy {
     margin-bottom: 2rem;
