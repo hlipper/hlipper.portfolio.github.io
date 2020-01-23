@@ -2093,9 +2093,11 @@ figcaption {
 
   .personas-locket blockquote {
     padding-left: 2rem;
+    padding-top: 4rem;
   }
 
 .personas-locket h3 {
+  font-size: 3.6rem;
   padding-bottom: 2rem;
   padding-top: 4rem;
 }
