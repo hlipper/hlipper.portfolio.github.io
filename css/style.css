@@ -418,8 +418,6 @@ h3 {
   border-color: #000000;
   border-style: solid;
   border-width: thin;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
   width: 28rem;
 }
 
@@ -944,6 +942,22 @@ footer {
     letter-spacing: 0.02rem;
 }
 
+.locket-prototype {
+  background-color: #AFD0ED;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.locket-prototype h3 {
+    color: #272728;
+    letter-spacing: 0.02rem;
+}
+
+.locket-prototype p {
+    color: #272728;
+    letter-spacing: 0.02rem;
+}
+
 .competitive-analysis-locket {
   background-color: #AFD0ED;
   padding-bottom: 2rem;
@@ -969,6 +983,11 @@ footer {
     color: #ffffff;
     letter-spacing: 0.02rem;
 }
+
+.hi-fi-mockups-prototypes-locket p {
+    color: #ffffff;
+    letter-spacing: 0.02rem;
+  }
 
 .summary h1 {
   color: #FE5D5D;
@@ -1063,6 +1082,10 @@ footer {
   padding-bottom: 2rem;
 }
 
+.hi-fi-mockups-prototypes-locket   {
+  background-color: #272728;
+  padding-bottom: 2rem;
+}
 
 .pipes {
     color: #AFD0ED;
@@ -1116,6 +1139,14 @@ figcaption {
   padding-top: 2rem;
 }
 
+.hi-fi-mockups-prototypes-locket {
+  color: #50A9F6;
+  font-size: 4.8rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
 .sketches-wireframes-locket h3 {
   color: #AFD0ED;
   font-family: "Poppins",sans-serif;
@@ -1124,7 +1155,25 @@ figcaption {
   letter-spacing: 0.02em;
 }
 
+.hi-fi-mockups-prototypes-locket  h3 {
+  color: #AFD0ED;
+  font-family: "Poppins",sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .sketches-wireframes-locket h4 {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding-bottom: 2rem;
+}
+
+.hi-fi-mockups-prototypes-locket h4 {
   color: #ffffff;
   font-family: "Poppins",sans-serif;
   font-size: 1.8rem;
@@ -1144,10 +1193,21 @@ figcaption {
   padding-bottom: 2rem;
 }
 
+.hi-fi-mockups-prototypes-locket p {
+  color: #ffffff;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding-bottom: 2rem;
+}
+
 .user-flows {
   background-color: hsla(0, 99%, 68%, .05);
   padding-bottom: 2rem;
 }
+
 
 .user-flows a {
   margin-top: 4rem;
@@ -1536,6 +1596,7 @@ figcaption {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+
 
 .sketches-wireframes {
   background-color: hsla(0, 99%, 68%, .05);
@@ -2000,6 +2061,15 @@ figcaption {
  grid-row-gap: 2rem;
  grid-template-columns: 1fr 1fr;
 }
+
+.locket-prototype .container {
+   display: grid;
+   grid-column-gap: 4rem;
+   grid-row-gap: 2rem;
+   grid-template-columns: 1fr 1fr;
+  }
+
+
 
 .user-flows a {
   margin-top: 4rem;
